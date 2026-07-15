@@ -1,0 +1,4 @@
+# I campioni CC0 (VSCO-2-CE) sono inclusi di proposito: NON escluderli.
+.DS_Store
+__pycache__/
+*.pyc

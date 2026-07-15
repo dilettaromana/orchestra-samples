@@ -1,0 +1,50 @@
+{
+  "name": "orchestra-samples (demo da CDN)",
+  "version": "0.1.0",
+  "ext": ".mp3",
+  "_note": "Funziona subito senza scaricare nulla. baseUrl per-strumento punta a CDN pubblici.",
+  "instruments": {
+    "choir-aah": {
+      "source": "FluidR3_GM choir_aahs (gleitz/midi-js-soundfonts)",
+      "license": "MIT wrapper / licenza soundfont FluidR3",
+      "baseUrl": "https://cdn.jsdelivr.net/gh/gleitz/midi-js-soundfonts/FluidR3_GM/choir_aahs-mp3/",
+      "release": 0.6,
+      "layers": [
+        {
+          "map": {
+            "C2": "C2",
+            "Eb2": "Eb2",
+            "Gb2": "Gb2",
+            "A2": "A2",
+            "C3": "C3",
+            "Eb3": "Eb3",
+            "Gb3": "Gb3",
+            "A3": "A3",
+            "C4": "C4",
+            "Eb4": "Eb4",
+            "Gb4": "Gb4",
+            "A4": "A4",
+            "C5": "C5",
+            "Eb5": "Eb5",
+            "Gb5": "Gb5",
+            "A5": "A5",
+            "C6": "C6"
+          }
+        }
+      ]
+    },
+    "xylophone": {
+      "source": "nbrosowsky/tonejs-instruments (derivato VSCO2)",
+      "license": "CC-BY",
+      "baseUrl": "https://cdn.jsdelivr.net/gh/nbrosowsky/tonejs-instruments/samples/xylophone/",
+      "release": 0.4,
+      "layers": [
+        {
+          "map": {
+            "C5": "C5"
+          }
+        }
+      ]
+    }
+  }
+}
