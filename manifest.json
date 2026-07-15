@@ -75,18 +75,18 @@
             0.5
           ],
           "map": {
-            "A1": "bassoon/p/A1",
-            "A3": "bassoon/p/A3",
-            "A#0": "bassoon/p/As0",
-            "A#1": "bassoon/p/As1",
-            "C2": "bassoon/p/C2",
-            "C3": "bassoon/p/C3",
-            "C4": "bassoon/p/C4",
-            "C#1": "bassoon/p/Cs1",
-            "D#3": "bassoon/p/Ds3",
-            "F1": "bassoon/p/F1",
-            "G2": "bassoon/p/G2",
-            "G#3": "bassoon/p/Gs3"
+            "A2": "bassoon/p/A1",
+            "A4": "bassoon/p/A3",
+            "A#1": "bassoon/p/As0",
+            "A#2": "bassoon/p/As1",
+            "C3": "bassoon/p/C2",
+            "C4": "bassoon/p/C3",
+            "C5": "bassoon/p/C4",
+            "C#2": "bassoon/p/Cs1",
+            "D#4": "bassoon/p/Ds3",
+            "F2": "bassoon/p/F1",
+            "G3": "bassoon/p/G2",
+            "G#4": "bassoon/p/Gs3"
           }
         },
         {
@@ -95,19 +95,19 @@
             1.0
           ],
           "map": {
-            "A1": "bassoon/f/A1",
-            "A3": "bassoon/f/A3",
-            "A#0": "bassoon/f/As0",
-            "A#1": "bassoon/f/As1",
-            "C2": "bassoon/f/C2",
-            "C3": "bassoon/f/C3",
-            "C4": "bassoon/f/C4",
-            "C#1": "bassoon/f/Cs1",
-            "D#3": "bassoon/f/Ds3",
-            "D#4": "bassoon/f/Ds4",
-            "F1": "bassoon/f/F1",
-            "G2": "bassoon/f/G2",
-            "G#3": "bassoon/f/Gs3"
+            "A2": "bassoon/f/A1",
+            "A4": "bassoon/f/A3",
+            "A#1": "bassoon/f/As0",
+            "A#2": "bassoon/f/As1",
+            "C3": "bassoon/f/C2",
+            "C4": "bassoon/f/C3",
+            "C5": "bassoon/f/C4",
+            "C#2": "bassoon/f/Cs1",
+            "D#4": "bassoon/f/Ds3",
+            "D#5": "bassoon/f/Ds4",
+            "F2": "bassoon/f/F1",
+            "G3": "bassoon/f/G2",
+            "G#4": "bassoon/f/Gs3"
           }
         }
       ]
@@ -122,19 +122,19 @@
             0.5
           ],
           "map": {
-            "A2": "cello/p/A2",
-            "B1": "cello/p/B1",
-            "B3": "cello/p/B3",
-            "C1": "cello/p/C1",
-            "C3": "cello/p/C3",
-            "D2": "cello/p/D2",
-            "D4": "cello/p/D4",
-            "E1": "cello/p/E1",
-            "E3": "cello/p/E3",
-            "F2": "cello/p/F2",
-            "F4": "cello/p/F4",
-            "G1": "cello/p/G1",
-            "G3": "cello/p/G3"
+            "A3": "cello/p/A2",
+            "B2": "cello/p/B1",
+            "B4": "cello/p/B3",
+            "C2": "cello/p/C1",
+            "C4": "cello/p/C3",
+            "D3": "cello/p/D2",
+            "D5": "cello/p/D4",
+            "E2": "cello/p/E1",
+            "E4": "cello/p/E3",
+            "F3": "cello/p/F2",
+            "F5": "cello/p/F4",
+            "G2": "cello/p/G1",
+            "G4": "cello/p/G3"
           }
         },
         {
@@ -143,19 +143,19 @@
             1.0
           ],
           "map": {
-            "A2": "cello/f/A2",
-            "B1": "cello/f/B1",
-            "B3": "cello/f/B3",
-            "C1": "cello/f/C1",
-            "C3": "cello/f/C3",
-            "D2": "cello/f/D2",
-            "D4": "cello/f/D4",
-            "E1": "cello/f/E1",
-            "E3": "cello/f/E3",
-            "F2": "cello/f/F2",
-            "F4": "cello/f/F4",
-            "G1": "cello/f/G1",
-            "G3": "cello/f/G3"
+            "A3": "cello/f/A2",
+            "B2": "cello/f/B1",
+            "B4": "cello/f/B3",
+            "C2": "cello/f/C1",
+            "C4": "cello/f/C3",
+            "D3": "cello/f/D2",
+            "D5": "cello/f/D4",
+            "E2": "cello/f/E1",
+            "E4": "cello/f/E3",
+            "F3": "cello/f/F2",
+            "F5": "cello/f/F4",
+            "G2": "cello/f/G1",
+            "G4": "cello/f/G3"
           }
         }
       ]
@@ -197,17 +197,17 @@
             0.5
           ],
           "map": {
-            "A#2": "clarinet/p/As2",
-            "A#3": "clarinet/p/As3",
-            "A#4": "clarinet/p/As4",
-            "D2": "clarinet/p/D2",
-            "D3": "clarinet/p/D3",
-            "D4": "clarinet/p/D4",
-            "D5": "clarinet/p/D5",
-            "F2": "clarinet/p/F2",
-            "F3": "clarinet/p/F3",
-            "F4": "clarinet/p/F4",
-            "F#5": "clarinet/p/Fs5"
+            "A#3": "clarinet/p/As2",
+            "A#4": "clarinet/p/As3",
+            "A#5": "clarinet/p/As4",
+            "D3": "clarinet/p/D2",
+            "D4": "clarinet/p/D3",
+            "D5": "clarinet/p/D4",
+            "D6": "clarinet/p/D5",
+            "F3": "clarinet/p/F2",
+            "F4": "clarinet/p/F3",
+            "F5": "clarinet/p/F4",
+            "F#6": "clarinet/p/Fs5"
           }
         },
         {
@@ -216,17 +216,17 @@
             1.0
           ],
           "map": {
-            "A#2": "clarinet/f/As2",
-            "A#3": "clarinet/f/As3",
-            "A#4": "clarinet/f/As4",
-            "D2": "clarinet/f/D2",
-            "D3": "clarinet/f/D3",
-            "D4": "clarinet/f/D4",
-            "D5": "clarinet/f/D5",
-            "F2": "clarinet/f/F2",
-            "F3": "clarinet/f/F3",
-            "F4": "clarinet/f/F4",
-            "F#5": "clarinet/f/Fs5"
+            "A#3": "clarinet/f/As2",
+            "A#4": "clarinet/f/As3",
+            "A#5": "clarinet/f/As4",
+            "D3": "clarinet/f/D2",
+            "D4": "clarinet/f/D3",
+            "D5": "clarinet/f/D4",
+            "D6": "clarinet/f/D5",
+            "F3": "clarinet/f/F2",
+            "F4": "clarinet/f/F3",
+            "F5": "clarinet/f/F4",
+            "F#6": "clarinet/f/Fs5"
           }
         }
       ]
@@ -241,19 +241,19 @@
             0.5
           ],
           "map": {
-            "A1": "contrabass/p/A1",
-            "A#0": "contrabass/p/As0",
-            "B2": "contrabass/p/B2",
-            "C1": "contrabass/p/C1",
-            "C#2": "contrabass/p/Cs2",
-            "D1": "contrabass/p/D1",
-            "E1": "contrabass/p/E1",
-            "E2": "contrabass/p/E2",
-            "F#0": "contrabass/p/Fs0",
-            "F#1": "contrabass/p/Fs1",
-            "G0": "contrabass/p/G0",
-            "G#1": "contrabass/p/Gs1",
-            "G#2": "contrabass/p/Gs2"
+            "A2": "contrabass/p/A1",
+            "A#1": "contrabass/p/As0",
+            "B3": "contrabass/p/B2",
+            "C2": "contrabass/p/C1",
+            "C#3": "contrabass/p/Cs2",
+            "D2": "contrabass/p/D1",
+            "E2": "contrabass/p/E1",
+            "E3": "contrabass/p/E2",
+            "F#1": "contrabass/p/Fs0",
+            "F#2": "contrabass/p/Fs1",
+            "G1": "contrabass/p/G0",
+            "G#2": "contrabass/p/Gs1",
+            "G#3": "contrabass/p/Gs2"
           }
         },
         {
@@ -262,19 +262,19 @@
             1.0
           ],
           "map": {
-            "A1": "contrabass/f/A1",
-            "A#0": "contrabass/f/As0",
-            "B2": "contrabass/f/B2",
-            "C1": "contrabass/f/C1",
-            "C#2": "contrabass/f/Cs2",
-            "D1": "contrabass/f/D1",
-            "E1": "contrabass/f/E1",
-            "E2": "contrabass/f/E2",
-            "F#0": "contrabass/f/Fs0",
-            "F#1": "contrabass/f/Fs1",
-            "G0": "contrabass/f/G0",
-            "G#1": "contrabass/f/Gs1",
-            "G#2": "contrabass/f/Gs2"
+            "A2": "contrabass/f/A1",
+            "A#1": "contrabass/f/As0",
+            "B3": "contrabass/f/B2",
+            "C2": "contrabass/f/C1",
+            "C#3": "contrabass/f/Cs2",
+            "D2": "contrabass/f/D1",
+            "E2": "contrabass/f/E1",
+            "E3": "contrabass/f/E2",
+            "F#1": "contrabass/f/Fs0",
+            "F#2": "contrabass/f/Fs1",
+            "G1": "contrabass/f/G0",
+            "G#2": "contrabass/f/Gs1",
+            "G#3": "contrabass/f/Gs2"
           }
         }
       ]
@@ -319,16 +319,16 @@
             1.0
           ],
           "map": {
-            "A3": "flute/mf/A3",
-            "A4": "flute/mf/A4",
-            "A5": "flute/mf/A5",
-            "C3": "flute/mf/C3",
-            "C4": "flute/mf/C4",
-            "C5": "flute/mf/C5",
-            "C6": "flute/mf/C6",
-            "E3": "flute/mf/E3",
-            "E4": "flute/mf/E4",
-            "E5": "flute/mf/E5"
+            "A4": "flute/mf/A3",
+            "A5": "flute/mf/A4",
+            "A6": "flute/mf/A5",
+            "C4": "flute/mf/C3",
+            "C5": "flute/mf/C4",
+            "C6": "flute/mf/C5",
+            "C7": "flute/mf/C6",
+            "E4": "flute/mf/E3",
+            "E5": "flute/mf/E4",
+            "E6": "flute/mf/E5"
           }
         }
       ]
@@ -343,17 +343,17 @@
             0.5
           ],
           "map": {
-            "A0": "french-horn/p/A0",
-            "A2": "french-horn/p/A2",
-            "A#1": "french-horn/p/As1",
-            "C1": "french-horn/p/C1",
-            "C3": "french-horn/p/C3",
-            "D2": "french-horn/p/D2",
-            "D4": "french-horn/p/D4",
-            "D#1": "french-horn/p/Ds1",
-            "F2": "french-horn/p/F2",
-            "F4": "french-horn/p/F4",
-            "G1": "french-horn/p/G1"
+            "A1": "french-horn/p/A0",
+            "A3": "french-horn/p/A2",
+            "A#2": "french-horn/p/As1",
+            "C2": "french-horn/p/C1",
+            "C4": "french-horn/p/C3",
+            "D3": "french-horn/p/D2",
+            "D5": "french-horn/p/D4",
+            "D#2": "french-horn/p/Ds1",
+            "F3": "french-horn/p/F2",
+            "F5": "french-horn/p/F4",
+            "G2": "french-horn/p/G1"
           }
         },
         {
@@ -362,17 +362,17 @@
             1.0
           ],
           "map": {
-            "A0": "french-horn/f/A0",
-            "A2": "french-horn/f/A2",
-            "A#1": "french-horn/f/As1",
-            "C1": "french-horn/f/C1",
-            "C3": "french-horn/f/C3",
-            "D2": "french-horn/f/D2",
-            "D4": "french-horn/f/D4",
-            "D#1": "french-horn/f/Ds1",
-            "F2": "french-horn/f/F2",
-            "F4": "french-horn/f/F4",
-            "G1": "french-horn/f/G1"
+            "A1": "french-horn/f/A0",
+            "A3": "french-horn/f/A2",
+            "A#2": "french-horn/f/As1",
+            "C2": "french-horn/f/C1",
+            "C4": "french-horn/f/C3",
+            "D3": "french-horn/f/D2",
+            "D5": "french-horn/f/D4",
+            "D#2": "french-horn/f/Ds1",
+            "F3": "french-horn/f/F2",
+            "F5": "french-horn/f/F4",
+            "G2": "french-horn/f/G1"
           }
         }
       ]
@@ -387,12 +387,12 @@
             1.0
           ],
           "map": {
-            "C5": "glockenspiel/mf/C5",
-            "C6": "glockenspiel/mf/C6",
-            "C7": "glockenspiel/mf/C7",
-            "G4": "glockenspiel/mf/G4",
-            "G5": "glockenspiel/mf/G5",
-            "G6": "glockenspiel/mf/G6"
+            "C6": "glockenspiel/mf/C5",
+            "C7": "glockenspiel/mf/C6",
+            "C8": "glockenspiel/mf/C7",
+            "G5": "glockenspiel/mf/G4",
+            "G6": "glockenspiel/mf/G5",
+            "G7": "glockenspiel/mf/G6"
           }
         }
       ]
@@ -580,16 +580,16 @@
             1.0
           ],
           "map": {
-            "B2": "marimba/mf/B2",
-            "B4": "marimba/mf/B4",
-            "C2": "marimba/mf/C2",
-            "C4": "marimba/mf/C4",
-            "C6": "marimba/mf/C6",
-            "F1": "marimba/mf/F1",
-            "F3": "marimba/mf/F3",
-            "F5": "marimba/mf/F5",
-            "G2": "marimba/mf/G2",
-            "G4": "marimba/mf/G4"
+            "B3": "marimba/mf/B2",
+            "B5": "marimba/mf/B4",
+            "C3": "marimba/mf/C2",
+            "C5": "marimba/mf/C4",
+            "C7": "marimba/mf/C6",
+            "F2": "marimba/mf/F1",
+            "F4": "marimba/mf/F3",
+            "F6": "marimba/mf/F5",
+            "G3": "marimba/mf/G2",
+            "G5": "marimba/mf/G4"
           }
         }
       ]
@@ -604,15 +604,15 @@
             0.5
           ],
           "map": {
-            "A#2": "oboe/p/As2",
-            "A#3": "oboe/p/As3",
-            "A#4": "oboe/p/As4",
-            "D3": "oboe/p/D3",
-            "D4": "oboe/p/D4",
-            "D5": "oboe/p/D5",
-            "F3": "oboe/p/F3",
-            "F4": "oboe/p/F4",
-            "F5": "oboe/p/F5"
+            "A#3": "oboe/p/As2",
+            "A#4": "oboe/p/As3",
+            "A#5": "oboe/p/As4",
+            "D4": "oboe/p/D3",
+            "D5": "oboe/p/D4",
+            "D6": "oboe/p/D5",
+            "F4": "oboe/p/F3",
+            "F5": "oboe/p/F4",
+            "F6": "oboe/p/F5"
           }
         },
         {
@@ -621,15 +621,15 @@
             1.0
           ],
           "map": {
-            "A#2": "oboe/f/As2",
-            "A#3": "oboe/f/As3",
-            "A#4": "oboe/f/As4",
-            "D3": "oboe/f/D3",
-            "D4": "oboe/f/D4",
-            "D5": "oboe/f/D5",
-            "F3": "oboe/f/F3",
-            "F4": "oboe/f/F4",
-            "F5": "oboe/f/F5"
+            "A#3": "oboe/f/As2",
+            "A#4": "oboe/f/As3",
+            "A#5": "oboe/f/As4",
+            "D4": "oboe/f/D3",
+            "D5": "oboe/f/D4",
+            "D6": "oboe/f/D5",
+            "F4": "oboe/f/F3",
+            "F5": "oboe/f/F4",
+            "F6": "oboe/f/F5"
           }
         }
       ]
@@ -719,25 +719,25 @@
             1.0
           ],
           "map": {
-            "A#1": "saxophone/mf/As1",
-            "A#2": "saxophone/mf/As2",
-            "A#3": "saxophone/mf/As3",
-            "A#4": "saxophone/mf/As4",
-            "C2": "saxophone/mf/C2",
-            "C3": "saxophone/mf/C3",
-            "C4": "saxophone/mf/C4",
-            "C5": "saxophone/mf/C5",
-            "D2": "saxophone/mf/D2",
-            "D3": "saxophone/mf/D3",
-            "D4": "saxophone/mf/D4",
-            "D5": "saxophone/mf/D5",
-            "E2": "saxophone/mf/E2",
-            "E3": "saxophone/mf/E3",
-            "E4": "saxophone/mf/E4",
-            "F#2": "saxophone/mf/Fs2",
-            "F#3": "saxophone/mf/Fs3",
-            "G4": "saxophone/mf/G4",
-            "G#4": "saxophone/mf/Gs4"
+            "A#2": "saxophone/mf/As1",
+            "A#3": "saxophone/mf/As2",
+            "A#4": "saxophone/mf/As3",
+            "A#5": "saxophone/mf/As4",
+            "C3": "saxophone/mf/C2",
+            "C4": "saxophone/mf/C3",
+            "C5": "saxophone/mf/C4",
+            "C6": "saxophone/mf/C5",
+            "D3": "saxophone/mf/D2",
+            "D4": "saxophone/mf/D3",
+            "D5": "saxophone/mf/D4",
+            "D6": "saxophone/mf/D5",
+            "E3": "saxophone/mf/E2",
+            "E4": "saxophone/mf/E3",
+            "E5": "saxophone/mf/E4",
+            "F#3": "saxophone/mf/Fs2",
+            "F#4": "saxophone/mf/Fs3",
+            "G5": "saxophone/mf/G4",
+            "G#5": "saxophone/mf/Gs4"
           }
         }
       ]
@@ -903,17 +903,17 @@
             0.5
           ],
           "map": {
-            "A#0": "trombone/p/As0",
-            "A#1": "trombone/p/As1",
-            "C3": "trombone/p/C3",
-            "C#1": "trombone/p/Cs1",
-            "C#3": "trombone/p/Cs3",
-            "D2": "trombone/p/D2",
-            "D#1": "trombone/p/Ds1",
-            "D#3": "trombone/p/Ds3",
-            "F1": "trombone/p/F1",
-            "F2": "trombone/p/F2",
-            "F3": "trombone/p/F3"
+            "A#1": "trombone/p/As0",
+            "A#2": "trombone/p/As1",
+            "C4": "trombone/p/C3",
+            "C#2": "trombone/p/Cs1",
+            "C#4": "trombone/p/Cs3",
+            "D3": "trombone/p/D2",
+            "D#2": "trombone/p/Ds1",
+            "D#4": "trombone/p/Ds3",
+            "F2": "trombone/p/F1",
+            "F3": "trombone/p/F2",
+            "F4": "trombone/p/F3"
           }
         },
         {
@@ -922,17 +922,17 @@
             1.0
           ],
           "map": {
-            "A#0": "trombone/f/As0",
-            "A#1": "trombone/f/As1",
-            "C3": "trombone/f/C3",
-            "C#1": "trombone/f/Cs1",
-            "C#3": "trombone/f/Cs3",
-            "D2": "trombone/f/D2",
-            "D#1": "trombone/f/Ds1",
-            "D#3": "trombone/f/Ds3",
-            "F1": "trombone/f/F1",
-            "F2": "trombone/f/F2",
-            "F3": "trombone/f/F3"
+            "A#1": "trombone/f/As0",
+            "A#2": "trombone/f/As1",
+            "C4": "trombone/f/C3",
+            "C#2": "trombone/f/Cs1",
+            "C#4": "trombone/f/Cs3",
+            "D3": "trombone/f/D2",
+            "D#2": "trombone/f/Ds1",
+            "D#4": "trombone/f/Ds3",
+            "F2": "trombone/f/F1",
+            "F3": "trombone/f/F2",
+            "F4": "trombone/f/F3"
           }
         }
       ]
@@ -947,17 +947,17 @@
             0.5
           ],
           "map": {
-            "A2": "trumpet/p/A2",
-            "A4": "trumpet/p/A4",
-            "A#3": "trumpet/p/As3",
-            "C3": "trumpet/p/C3",
-            "C5": "trumpet/p/C5",
-            "D4": "trumpet/p/D4",
-            "D#3": "trumpet/p/Ds3",
-            "F2": "trumpet/p/F2",
-            "F3": "trumpet/p/F3",
-            "F4": "trumpet/p/F4",
-            "G3": "trumpet/p/G3"
+            "A3": "trumpet/p/A2",
+            "A5": "trumpet/p/A4",
+            "A#4": "trumpet/p/As3",
+            "C4": "trumpet/p/C3",
+            "C6": "trumpet/p/C5",
+            "D5": "trumpet/p/D4",
+            "D#4": "trumpet/p/Ds3",
+            "F3": "trumpet/p/F2",
+            "F4": "trumpet/p/F3",
+            "F5": "trumpet/p/F4",
+            "G4": "trumpet/p/G3"
           }
         },
         {
@@ -966,17 +966,17 @@
             1.0
           ],
           "map": {
-            "A2": "trumpet/f/A2",
-            "A4": "trumpet/f/A4",
-            "A#3": "trumpet/f/As3",
-            "C3": "trumpet/f/C3",
-            "C5": "trumpet/f/C5",
-            "D4": "trumpet/f/D4",
-            "D#3": "trumpet/f/Ds3",
-            "F2": "trumpet/f/F2",
-            "F3": "trumpet/f/F3",
-            "F4": "trumpet/f/F4",
-            "G3": "trumpet/f/G3"
+            "A3": "trumpet/f/A2",
+            "A5": "trumpet/f/A4",
+            "A#4": "trumpet/f/As3",
+            "C4": "trumpet/f/C3",
+            "C6": "trumpet/f/C5",
+            "D5": "trumpet/f/D4",
+            "D#4": "trumpet/f/Ds3",
+            "F3": "trumpet/f/F2",
+            "F4": "trumpet/f/F3",
+            "F5": "trumpet/f/F4",
+            "G4": "trumpet/f/G3"
           }
         }
       ]
@@ -991,11 +991,11 @@
             0.5
           ],
           "map": {
-            "A#3": "tubular-bells/p/As3",
-            "C3": "tubular-bells/p/C3",
-            "D3": "tubular-bells/p/D3",
-            "E3": "tubular-bells/p/E3",
-            "E4": "tubular-bells/p/E4"
+            "A#4": "tubular-bells/p/As3",
+            "C4": "tubular-bells/p/C3",
+            "D4": "tubular-bells/p/D3",
+            "E4": "tubular-bells/p/E3",
+            "E5": "tubular-bells/p/E4"
           }
         },
         {
@@ -1004,7 +1004,7 @@
             1.0
           ],
           "map": {
-            "F#3": "tubular-bells/f/Fs3"
+            "F#4": "tubular-bells/f/Fs3"
           }
         }
       ]
@@ -1019,19 +1019,19 @@
             0.5
           ],
           "map": {
-            "A3": "viola/p/A3",
-            "B2": "viola/p/B2",
-            "B4": "viola/p/B4",
-            "C2": "viola/p/C2",
-            "C4": "viola/p/C4",
-            "D2": "viola/p/D2",
-            "D3": "viola/p/D3",
-            "D5": "viola/p/D5",
-            "E2": "viola/p/E2",
-            "E4": "viola/p/E4",
-            "F3": "viola/p/F3",
-            "G2": "viola/p/G2",
-            "G4": "viola/p/G4"
+            "A4": "viola/p/A3",
+            "B3": "viola/p/B2",
+            "B5": "viola/p/B4",
+            "C3": "viola/p/C2",
+            "C5": "viola/p/C4",
+            "D3": "viola/p/D2",
+            "D4": "viola/p/D3",
+            "D6": "viola/p/D5",
+            "E3": "viola/p/E2",
+            "E5": "viola/p/E4",
+            "F4": "viola/p/F3",
+            "G3": "viola/p/G2",
+            "G5": "viola/p/G4"
           }
         },
         {
@@ -1040,19 +1040,19 @@
             1.0
           ],
           "map": {
-            "A3": "viola/f/A3",
-            "B2": "viola/f/B2",
-            "B4": "viola/f/B4",
-            "C2": "viola/f/C2",
-            "C4": "viola/f/C4",
-            "D2": "viola/f/D2",
-            "D3": "viola/f/D3",
-            "D5": "viola/f/D5",
-            "E2": "viola/f/E2",
-            "E4": "viola/f/E4",
-            "F3": "viola/f/F3",
-            "G2": "viola/f/G2",
-            "G4": "viola/f/G4"
+            "A4": "viola/f/A3",
+            "B3": "viola/f/B2",
+            "B5": "viola/f/B4",
+            "C3": "viola/f/C2",
+            "C5": "viola/f/C4",
+            "D3": "viola/f/D2",
+            "D4": "viola/f/D3",
+            "D6": "viola/f/D5",
+            "E3": "viola/f/E2",
+            "E5": "viola/f/E4",
+            "F4": "viola/f/F3",
+            "G3": "viola/f/G2",
+            "G5": "viola/f/G4"
           }
         }
       ]
@@ -1067,17 +1067,17 @@
             0.5
           ],
           "map": {
-            "A2": "violin/p/A2",
-            "A3": "violin/p/A3",
-            "B2": "violin/p/B2",
-            "B4": "violin/p/B4",
-            "C4": "violin/p/C4",
-            "D3": "violin/p/D3",
-            "D5": "violin/p/D5",
-            "E4": "violin/p/E4",
-            "F#3": "violin/p/Fs3",
-            "G2": "violin/p/G2",
-            "G4": "violin/p/G4"
+            "A3": "violin/p/A2",
+            "A4": "violin/p/A3",
+            "B3": "violin/p/B2",
+            "B5": "violin/p/B4",
+            "C5": "violin/p/C4",
+            "D4": "violin/p/D3",
+            "D6": "violin/p/D5",
+            "E5": "violin/p/E4",
+            "F#4": "violin/p/Fs3",
+            "G3": "violin/p/G2",
+            "G5": "violin/p/G4"
           }
         },
         {
@@ -1086,17 +1086,17 @@
             1.0
           ],
           "map": {
-            "A2": "violin/f/A2",
-            "A3": "violin/f/A3",
-            "B2": "violin/f/B2",
-            "B4": "violin/f/B4",
-            "C4": "violin/f/C4",
-            "D3": "violin/f/D3",
-            "D5": "violin/f/D5",
-            "E4": "violin/f/E4",
-            "F#3": "violin/f/Fs3",
-            "G2": "violin/f/G2",
-            "G4": "violin/f/G4"
+            "A3": "violin/f/A2",
+            "A4": "violin/f/A3",
+            "B3": "violin/f/B2",
+            "B5": "violin/f/B4",
+            "C5": "violin/f/C4",
+            "D4": "violin/f/D3",
+            "D6": "violin/f/D5",
+            "E5": "violin/f/E4",
+            "F#4": "violin/f/Fs3",
+            "G3": "violin/f/G2",
+            "G5": "violin/f/G4"
           }
         }
       ]
@@ -1168,14 +1168,14 @@
             1.0
           ],
           "map": {
-            "C4": "xylophone/mf/C4",
-            "C5": "xylophone/mf/C5",
-            "C6": "xylophone/mf/C6",
-            "C7": "xylophone/mf/C7",
-            "G3": "xylophone/mf/G3",
-            "G4": "xylophone/mf/G4",
-            "G5": "xylophone/mf/G5",
-            "G6": "xylophone/mf/G6"
+            "C5": "xylophone/mf/C4",
+            "C6": "xylophone/mf/C5",
+            "C7": "xylophone/mf/C6",
+            "C8": "xylophone/mf/C7",
+            "G4": "xylophone/mf/G3",
+            "G5": "xylophone/mf/G4",
+            "G6": "xylophone/mf/G5",
+            "G7": "xylophone/mf/G6"
           }
         }
       ]
