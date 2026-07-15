@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>orchestra-samples — demo</title>
+<style>
+  body{ font-family:system-ui,sans-serif; max-width:640px; margin:40px auto; padding:0 16px; color:#1F3864; }
+  h1{ font-size:20px; } button{ font-size:16px; padding:10px 16px; border-radius:10px;
+    border:1px solid #2C7A7B; background:#2C7A7B; color:#fff; cursor:pointer; }
+  button:disabled{ opacity:.5; cursor:default; } .row{ margin:14px 0; } code{ background:#eef; padding:1px 5px; border-radius:4px; }
+  #status{ color:#2C7A7B; font-size:14px; }
+</style>
+</head>
+<body>
+  <h1>orchestra-samples — demo</h1>
+  <p>Carica <code>manifest.cdn.json</code> (coro + xilofono da CDN pubblici) e suona una scala.
+     Serve una connessione al primo caricamento.</p>
+  <div class="row">
+    <button id="load">1) Carica campioni</button>
+    <span id="status">pronto</span>
+  </div>
+  <div class="row">
+    <button id="choir" disabled>2) Scala coro (aah)</button>
+    <button id="xylo" disabled>Xilofono (C5)</button>
+  </div>
+
+  <!-- Tone.js + loader -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.8.49/Tone.js"></script>
+  <script src="../loader/orchestra-samples.js"></script>
+  <script>
+    let bank = null;
+    const $ = (id) => document.getElementById(id);
+    const setStatus = (t) => { $("status").textContent = t; };
+
+    $("load").addEventListener("click", async () => {
+      $("load").disabled = true; setStatus("avvio audio…");
+      await Tone.start();
+      setStatus("caricamento campioni…");
+      try {
+        bank = await OrchestraSamples.load("../manifest.cdn.json");
+        Object.values(bank).forEach((inst) => inst.connect(Tone.getDestination()));
+        setStatus("campioni pronti");
+        $("choir").disabled = false; $("xylo").disabled = false;
+      } catch (e) {
+        setStatus("errore: " + e.message); $("load").disabled = false;
+      }
+    });
+
+    $("choir").addEventListener("click", () => {
+      if (!bank || !bank["choir-aah"]) return;
+      const notes = ["C4","D4","E4","F4","G4","A4","B4","C5"];
+      const now = Tone.now();
+      notes.forEach((n, i) => bank["choir-aah"].triggerAttackRelease(n, "4n", now + i * 0.45, 0.9));
+    });
+
+    $("xylo").addEventListener("click", () => {
+      if (!bank || !bank["xylophone"]) return;
+      bank["xylophone"].triggerAttackRelease("C5", "8n", Tone.now(), 0.9);
+    });
+  </script>
+</body>
+</html>
