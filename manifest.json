@@ -4,6 +4,33 @@
   "baseUrl": "./samples/",
   "ext": ".ogg",
   "instruments": {
+    "accordion": {
+      "release": 0.4,
+      "ext": ".mp3",
+      "layers": [
+        {
+          "map": {
+            "C2": "accordion/C2",
+            "Eb2": "accordion/Eb2",
+            "Gb2": "accordion/Gb2",
+            "A2": "accordion/A2",
+            "C3": "accordion/C3",
+            "Eb3": "accordion/Eb3",
+            "Gb3": "accordion/Gb3",
+            "A3": "accordion/A3",
+            "C4": "accordion/C4",
+            "Eb4": "accordion/Eb4",
+            "Gb4": "accordion/Gb4",
+            "A4": "accordion/A4",
+            "C5": "accordion/C5",
+            "Eb5": "accordion/Eb5",
+            "Gb5": "accordion/Gb5",
+            "A5": "accordion/A5",
+            "C6": "accordion/C6"
+          }
+        }
+      ]
+    },
     "bass-drum": {
       "release": 1.0,
       "ext": ".ogg",
