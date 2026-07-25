@@ -1206,6 +1206,101 @@
           }
         }
       ]
+    },
+    "soprano-solo": {
+      "ext": ".mp3",
+      "release": 0.6,
+      "layers": [
+        {
+          "map": {
+            "C4": "soprano-solo-hd/C4",
+            "Eb4": "soprano-solo-hd/Eb4",
+            "Gb4": "soprano-solo-hd/Gb4",
+            "A4": "soprano-solo-hd/A4",
+            "C5": "soprano-solo-hd/C5",
+            "Eb5": "soprano-solo-hd/Eb5",
+            "Gb5": "soprano-solo-hd/Gb5",
+            "A5": "soprano-solo-hd/A5",
+            "C6": "soprano-solo-hd/C6"
+          }
+        }
+      ]
+    },
+    "alto-solo": {
+      "ext": ".mp3",
+      "release": 0.6,
+      "layers": [
+        {
+          "map": {
+            "Gb3": "alto-solo-hd/Gb3",
+            "A3": "alto-solo-hd/A3",
+            "C4": "alto-solo-hd/C4",
+            "Eb4": "alto-solo-hd/Eb4",
+            "Gb4": "alto-solo-hd/Gb4",
+            "A4": "alto-solo-hd/A4",
+            "C5": "alto-solo-hd/C5",
+            "Eb5": "alto-solo-hd/Eb5",
+            "Gb5": "alto-solo-hd/Gb5"
+          }
+        }
+      ]
+    },
+    "tenor-solo": {
+      "ext": ".mp3",
+      "release": 0.6,
+      "layers": [
+        {
+          "map": {
+            "C3": "tenor-solo-hd/C3",
+            "Eb3": "tenor-solo-hd/Eb3",
+            "Gb3": "tenor-solo-hd/Gb3",
+            "A3": "tenor-solo-hd/A3",
+            "C4": "tenor-solo-hd/C4",
+            "Eb4": "tenor-solo-hd/Eb4",
+            "Gb4": "tenor-solo-hd/Gb4",
+            "A4": "tenor-solo-hd/A4",
+            "C5": "tenor-solo-hd/C5"
+          }
+        }
+      ]
+    },
+    "baritone-solo": {
+      "ext": ".mp3",
+      "release": 0.6,
+      "layers": [
+        {
+          "map": {
+            "A2": "baritone-solo-hd/A2",
+            "C3": "baritone-solo-hd/C3",
+            "Eb3": "baritone-solo-hd/Eb3",
+            "Gb3": "baritone-solo-hd/Gb3",
+            "A3": "baritone-solo-hd/A3",
+            "C4": "baritone-solo-hd/C4",
+            "Eb4": "baritone-solo-hd/Eb4",
+            "Gb4": "baritone-solo-hd/Gb4",
+            "A4": "baritone-solo-hd/A4"
+          }
+        }
+      ]
+    },
+    "bass-solo": {
+      "ext": ".mp3",
+      "release": 0.6,
+      "layers": [
+        {
+          "map": {
+            "Eb2": "bass-solo-hd/Eb2",
+            "Gb2": "bass-solo-hd/Gb2",
+            "A2": "bass-solo-hd/A2",
+            "C3": "bass-solo-hd/C3",
+            "Eb3": "bass-solo-hd/Eb3",
+            "Gb3": "bass-solo-hd/Gb3",
+            "A3": "bass-solo-hd/A3",
+            "C4": "bass-solo-hd/C4",
+            "Eb4": "bass-solo-hd/Eb4"
+          }
+        }
+      ]
     }
   }
 }
