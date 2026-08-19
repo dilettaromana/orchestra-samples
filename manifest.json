@@ -1,1306 +1,1552 @@
 {
-  "name": "orchestra-samples",
-  "version": "0.1.0",
-  "baseUrl": "./samples/",
-  "ext": ".ogg",
-  "instruments": {
-    "accordion": {
-      "release": 0.4,
-      "ext": ".mp3",
-      "layers": [
-        {
-          "map": {
-            "C2": "accordion/C2",
-            "Eb2": "accordion/Eb2",
-            "Gb2": "accordion/Gb2",
-            "A2": "accordion/A2",
-            "C3": "accordion/C3",
-            "Eb3": "accordion/Eb3",
-            "Gb3": "accordion/Gb3",
-            "A3": "accordion/A3",
-            "C4": "accordion/C4",
-            "Eb4": "accordion/Eb4",
-            "Gb4": "accordion/Gb4",
-            "A4": "accordion/A4",
-            "C5": "accordion/C5",
-            "Eb5": "accordion/Eb5",
-            "Gb5": "accordion/Gb5",
-            "A5": "accordion/A5",
-            "C6": "accordion/C6"
-          }
-        }
-      ]
-    },
-    "bass-drum": {
-      "release": 1.0,
-      "ext": ".ogg",
-      "layers": [
-        {
-          "velRange": [
-            0.0,
-            0.5
-          ],
-          "map": {
-            "F1": [
-              "bass-drum/p/F1_1",
-              "bass-drum/p/F1_2"
-            ]
-          }
-        },
-        {
-          "velRange": [
-            0.5,
-            1.0
-          ],
-          "map": {
-            "F1": [
-              "bass-drum/f/F1_1",
-              "bass-drum/f/F1_2"
-            ]
-          }
-        }
-      ]
-    },
-    "bass-electric": {
-      "release": 1.0,
-      "ext": ".ogg",
-      "layers": [
-        {
-          "velRange": [
-            0.0,
-            1.0
-          ],
-          "map": {
-            "A#1": "bass-electric/mf/As1",
-            "A#2": "bass-electric/mf/As2",
-            "A#3": "bass-electric/mf/As3",
-            "A#4": "bass-electric/mf/As4",
-            "C#1": "bass-electric/mf/Cs1",
-            "C#2": "bass-electric/mf/Cs2",
-            "C#3": "bass-electric/mf/Cs3",
-            "C#4": "bass-electric/mf/Cs4",
-            "C#5": "bass-electric/mf/Cs5",
-            "E1": "bass-electric/mf/E1",
-            "E2": "bass-electric/mf/E2",
-            "E3": "bass-electric/mf/E3",
-            "E4": "bass-electric/mf/E4",
-            "G1": "bass-electric/mf/G1",
-            "G2": "bass-electric/mf/G2",
-            "G3": "bass-electric/mf/G3",
-            "G4": "bass-electric/mf/G4"
-          }
-        }
-      ]
-    },
-    "bassoon": {
-      "release": 1.0,
-      "ext": ".ogg",
-      "layers": [
-        {
-          "velRange": [
-            0.0,
-            0.5
-          ],
-          "map": {
-            "A2": "bassoon/p/A1",
-            "A4": "bassoon/p/A3",
-            "A#1": "bassoon/p/As0",
-            "A#2": "bassoon/p/As1",
-            "C3": "bassoon/p/C2",
-            "C4": "bassoon/p/C3",
-            "C5": "bassoon/p/C4",
-            "C#2": "bassoon/p/Cs1",
-            "D#4": "bassoon/p/Ds3",
-            "F2": "bassoon/p/F1",
-            "G3": "bassoon/p/G2",
-            "G#4": "bassoon/p/Gs3"
-          }
-        },
-        {
-          "velRange": [
-            0.5,
-            1.0
-          ],
-          "map": {
-            "A2": "bassoon/f/A1",
-            "A4": "bassoon/f/A3",
-            "A#1": "bassoon/f/As0",
-            "A#2": "bassoon/f/As1",
-            "C3": "bassoon/f/C2",
-            "C4": "bassoon/f/C3",
-            "C5": "bassoon/f/C4",
-            "C#2": "bassoon/f/Cs1",
-            "D#4": "bassoon/f/Ds3",
-            "D#5": "bassoon/f/Ds4",
-            "F2": "bassoon/f/F1",
-            "G3": "bassoon/f/G2",
-            "G#4": "bassoon/f/Gs3"
-          }
-        }
-      ]
-    },
-    "cello": {
-      "release": 1.0,
-      "ext": ".ogg",
-      "layers": [
-        {
-          "velRange": [
-            0.0,
-            0.5
-          ],
-          "map": {
-            "A3": "cello/p/A2",
-            "B2": "cello/p/B1",
-            "B4": "cello/p/B3",
-            "C2": "cello/p/C1",
-            "C4": "cello/p/C3",
-            "D3": "cello/p/D2",
-            "D5": "cello/p/D4",
-            "E2": "cello/p/E1",
-            "E4": "cello/p/E3",
-            "F3": "cello/p/F2",
-            "F5": "cello/p/F4",
-            "G2": "cello/p/G1",
-            "G4": "cello/p/G3"
-          }
-        },
-        {
-          "velRange": [
-            0.5,
-            1.0
-          ],
-          "map": {
-            "A3": "cello/f/A2",
-            "B2": "cello/f/B1",
-            "B4": "cello/f/B3",
-            "C2": "cello/f/C1",
-            "C4": "cello/f/C3",
-            "D3": "cello/f/D2",
-            "D5": "cello/f/D4",
-            "E2": "cello/f/E1",
-            "E4": "cello/f/E3",
-            "F3": "cello/f/F2",
-            "F5": "cello/f/F4",
-            "G2": "cello/f/G1",
-            "G4": "cello/f/G3"
-          }
-        }
-      ]
-    },
-    "choir-aah": {
-      "release": 1.0,
-      "ext": ".mp3",
-      "layers": [
-        {
-          "map": {
-            "A2": "choir-aah/A2",
-            "A3": "choir-aah/A3",
-            "A4": "choir-aah/A4",
-            "A5": "choir-aah/A5",
-            "C2": "choir-aah/C2",
-            "C3": "choir-aah/C3",
-            "C4": "choir-aah/C4",
-            "C5": "choir-aah/C5",
-            "C6": "choir-aah/C6",
-            "Eb2": "choir-aah/Eb2",
-            "Eb3": "choir-aah/Eb3",
-            "Eb4": "choir-aah/Eb4",
-            "Eb5": "choir-aah/Eb5",
-            "Gb2": "choir-aah/Gb2",
-            "Gb3": "choir-aah/Gb3",
-            "Gb4": "choir-aah/Gb4",
-            "Gb5": "choir-aah/Gb5"
-          }
-        }
-      ]
-    },
-    "clarinet": {
-      "release": 1.0,
-      "ext": ".ogg",
-      "layers": [
-        {
-          "velRange": [
-            0.0,
-            0.5
-          ],
-          "map": {
-            "A#3": "clarinet/p/As2",
-            "A#4": "clarinet/p/As3",
-            "A#5": "clarinet/p/As4",
-            "D3": "clarinet/p/D2",
-            "D4": "clarinet/p/D3",
-            "D5": "clarinet/p/D4",
-            "D6": "clarinet/p/D5",
-            "F3": "clarinet/p/F2",
-            "F4": "clarinet/p/F3",
-            "F5": "clarinet/p/F4",
-            "F#6": "clarinet/p/Fs5"
-          }
-        },
-        {
-          "velRange": [
-            0.5,
-            1.0
-          ],
-          "map": {
-            "A#3": "clarinet/f/As2",
-            "A#4": "clarinet/f/As3",
-            "A#5": "clarinet/f/As4",
-            "D3": "clarinet/f/D2",
-            "D4": "clarinet/f/D3",
-            "D5": "clarinet/f/D4",
-            "D6": "clarinet/f/D5",
-            "F3": "clarinet/f/F2",
-            "F4": "clarinet/f/F3",
-            "F5": "clarinet/f/F4",
-            "F#6": "clarinet/f/Fs5"
-          }
-        }
-      ]
-    },
-    "contrabass": {
-      "release": 1.0,
-      "ext": ".ogg",
-      "layers": [
-        {
-          "velRange": [
-            0.0,
-            0.5
-          ],
-          "map": {
-            "A2": "contrabass/p/A1",
-            "A#1": "contrabass/p/As0",
-            "B3": "contrabass/p/B2",
-            "C2": "contrabass/p/C1",
-            "C#3": "contrabass/p/Cs2",
-            "D2": "contrabass/p/D1",
-            "E2": "contrabass/p/E1",
-            "E3": "contrabass/p/E2",
-            "F#1": "contrabass/p/Fs0",
-            "F#2": "contrabass/p/Fs1",
-            "G1": "contrabass/p/G0",
-            "G#2": "contrabass/p/Gs1",
-            "G#3": "contrabass/p/Gs2"
-          }
-        },
-        {
-          "velRange": [
-            0.5,
-            1.0
-          ],
-          "map": {
-            "A2": "contrabass/f/A1",
-            "A#1": "contrabass/f/As0",
-            "B3": "contrabass/f/B2",
-            "C2": "contrabass/f/C1",
-            "C#3": "contrabass/f/Cs2",
-            "D2": "contrabass/f/D1",
-            "E2": "contrabass/f/E1",
-            "E3": "contrabass/f/E2",
-            "F#1": "contrabass/f/Fs0",
-            "F#2": "contrabass/f/Fs1",
-            "G1": "contrabass/f/G0",
-            "G#2": "contrabass/f/Gs1",
-            "G#3": "contrabass/f/Gs2"
-          }
-        }
-      ]
-    },
-    "cymbals": {
-      "release": 1.0,
-      "ext": ".ogg",
-      "layers": [
-        {
-          "velRange": [
-            0.0,
-            0.5
-          ],
-          "map": {
-            "C4": [
-              "cymbals/p/C4_1",
-              "cymbals/p/C4_2"
-            ]
-          }
-        },
-        {
-          "velRange": [
-            0.5,
-            1.0
-          ],
-          "map": {
-            "C4": [
-              "cymbals/f/C4_1",
-              "cymbals/f/C4_2"
-            ]
-          }
-        }
-      ]
-    },
-    "flute": {
-      "release": 1.0,
-      "ext": ".ogg",
-      "layers": [
-        {
-          "velRange": [
-            0.0,
-            1.0
-          ],
-          "map": {
-            "A4": "flute/mf/A3",
-            "A5": "flute/mf/A4",
-            "A6": "flute/mf/A5",
-            "C4": "flute/mf/C3",
-            "C5": "flute/mf/C4",
-            "C6": "flute/mf/C5",
-            "C7": "flute/mf/C6",
-            "E4": "flute/mf/E3",
-            "E5": "flute/mf/E4",
-            "E6": "flute/mf/E5"
-          }
-        }
-      ]
-    },
-    "french-horn": {
-      "release": 1.0,
-      "ext": ".ogg",
-      "layers": [
-        {
-          "velRange": [
-            0.0,
-            0.5
-          ],
-          "map": {
-            "A1": "french-horn/p/A0",
-            "A3": "french-horn/p/A2",
-            "A#2": "french-horn/p/As1",
-            "C2": "french-horn/p/C1",
-            "C4": "french-horn/p/C3",
-            "D3": "french-horn/p/D2",
-            "D5": "french-horn/p/D4",
-            "D#2": "french-horn/p/Ds1",
-            "F3": "french-horn/p/F2",
-            "F5": "french-horn/p/F4",
-            "G2": "french-horn/p/G1"
-          }
-        },
-        {
-          "velRange": [
-            0.5,
-            1.0
-          ],
-          "map": {
-            "A1": "french-horn/f/A0",
-            "A3": "french-horn/f/A2",
-            "A#2": "french-horn/f/As1",
-            "C2": "french-horn/f/C1",
-            "C4": "french-horn/f/C3",
-            "D3": "french-horn/f/D2",
-            "D5": "french-horn/f/D4",
-            "D#2": "french-horn/f/Ds1",
-            "F3": "french-horn/f/F2",
-            "F5": "french-horn/f/F4",
-            "G2": "french-horn/f/G1"
-          }
-        }
-      ]
-    },
-    "glockenspiel": {
-      "release": 1.0,
-      "ext": ".ogg",
-      "layers": [
-        {
-          "velRange": [
-            0.0,
-            1.0
-          ],
-          "map": {
-            "C6": "glockenspiel/mf/C5",
-            "C7": "glockenspiel/mf/C6",
-            "C8": "glockenspiel/mf/C7",
-            "G5": "glockenspiel/mf/G4",
-            "G6": "glockenspiel/mf/G5",
-            "G7": "glockenspiel/mf/G6"
-          }
-        }
-      ]
-    },
-    "gong": {
-      "release": 1.0,
-      "ext": ".ogg",
-      "layers": [
-        {
-          "velRange": [
-            0.0,
-            0.5
-          ],
-          "map": {
-            "C4": "gong/p/C4"
-          }
-        },
-        {
-          "velRange": [
-            0.5,
-            1.0
-          ],
-          "map": {
-            "C4": "gong/f/C4"
-          }
-        }
-      ]
-    },
-    "guitar-acoustic": {
-      "release": 1.0,
-      "ext": ".ogg",
-      "layers": [
-        {
-          "velRange": [
-            0.0,
-            1.0
-          ],
-          "map": {
-            "A2": "guitar-acoustic/mf/A2",
-            "A3": "guitar-acoustic/mf/A3",
-            "A4": "guitar-acoustic/mf/A4",
-            "A#2": "guitar-acoustic/mf/As2",
-            "A#3": "guitar-acoustic/mf/As3",
-            "A#4": "guitar-acoustic/mf/As4",
-            "B2": "guitar-acoustic/mf/B2",
-            "B3": "guitar-acoustic/mf/B3",
-            "B4": "guitar-acoustic/mf/B4",
-            "C3": "guitar-acoustic/mf/C3",
-            "C4": "guitar-acoustic/mf/C4",
-            "C5": "guitar-acoustic/mf/C5",
-            "C#3": "guitar-acoustic/mf/Cs3",
-            "C#4": "guitar-acoustic/mf/Cs4",
-            "C#5": "guitar-acoustic/mf/Cs5",
-            "D2": "guitar-acoustic/mf/D2",
-            "D3": "guitar-acoustic/mf/D3",
-            "D4": "guitar-acoustic/mf/D4",
-            "D5": "guitar-acoustic/mf/D5",
-            "D#2": "guitar-acoustic/mf/Ds2",
-            "D#3": "guitar-acoustic/mf/Ds3",
-            "D#4": "guitar-acoustic/mf/Ds4",
-            "E2": "guitar-acoustic/mf/E2",
-            "E3": "guitar-acoustic/mf/E3",
-            "E4": "guitar-acoustic/mf/E4",
-            "F2": "guitar-acoustic/mf/F2",
-            "F3": "guitar-acoustic/mf/F3",
-            "F4": "guitar-acoustic/mf/F4",
-            "F#2": "guitar-acoustic/mf/Fs2",
-            "F#3": "guitar-acoustic/mf/Fs3",
-            "F#4": "guitar-acoustic/mf/Fs4",
-            "G2": "guitar-acoustic/mf/G2",
-            "G3": "guitar-acoustic/mf/G3",
-            "G4": "guitar-acoustic/mf/G4",
-            "G#2": "guitar-acoustic/mf/Gs2",
-            "G#3": "guitar-acoustic/mf/Gs3",
-            "G#4": "guitar-acoustic/mf/Gs4"
-          }
-        }
-      ]
-    },
-    "guitar-electric": {
-      "release": 1.0,
-      "ext": ".ogg",
-      "layers": [
-        {
-          "velRange": [
-            0.0,
-            1.0
-          ],
-          "map": {
-            "A2": "guitar-electric/mf/A2",
-            "A3": "guitar-electric/mf/A3",
-            "A4": "guitar-electric/mf/A4",
-            "A5": "guitar-electric/mf/A5",
-            "C3": "guitar-electric/mf/C3",
-            "C4": "guitar-electric/mf/C4",
-            "C5": "guitar-electric/mf/C5",
-            "C6": "guitar-electric/mf/C6",
-            "C#2": "guitar-electric/mf/Cs2",
-            "D#3": "guitar-electric/mf/Ds3",
-            "D#4": "guitar-electric/mf/Ds4",
-            "D#5": "guitar-electric/mf/Ds5",
-            "E2": "guitar-electric/mf/E2",
-            "F#2": "guitar-electric/mf/Fs2",
-            "F#3": "guitar-electric/mf/Fs3",
-            "F#4": "guitar-electric/mf/Fs4",
-            "F#5": "guitar-electric/mf/Fs5"
-          }
-        }
-      ]
-    },
-    "harp": {
-      "release": 1.0,
-      "ext": ".ogg",
-      "layers": [
-        {
-          "velRange": [
-            0.0,
-            1.0
-          ],
-          "map": {
-            "A2": "harp/mf/A2",
-            "A4": "harp/mf/A4",
-            "A6": "harp/mf/A6",
-            "B1": "harp/mf/B1",
-            "B3": "harp/mf/B3",
-            "B5": "harp/mf/B5",
-            "B6": "harp/mf/B6",
-            "C3": "harp/mf/C3",
-            "C5": "harp/mf/C5",
-            "D2": "harp/mf/D2",
-            "D4": "harp/mf/D4",
-            "D6": "harp/mf/D6",
-            "D7": "harp/mf/D7",
-            "E1": "harp/mf/E1",
-            "E3": "harp/mf/E3",
-            "E5": "harp/mf/E5",
-            "F2": "harp/mf/F2",
-            "F4": "harp/mf/F4",
-            "F6": "harp/mf/F6",
-            "F7": "harp/mf/F7",
-            "G1": "harp/mf/G1",
-            "G3": "harp/mf/G3",
-            "G5": "harp/mf/G5"
-          }
-        }
-      ]
-    },
-    "hi-hat": {
-      "release": 1.0,
-      "ext": ".ogg",
-      "layers": [
-        {
-          "velRange": [
-            0.0,
-            0.5
-          ],
-          "map": {
-            "C4": [
-              "hi-hat/p/C4_1",
-              "hi-hat/p/C4_2"
-            ]
-          }
-        },
-        {
-          "velRange": [
-            0.5,
-            1.0
-          ],
-          "map": {
-            "C4": [
-              "hi-hat/f/C4_1",
-              "hi-hat/f/C4_2"
-            ]
-          }
-        }
-      ]
-    },
-    "marimba": {
-      "release": 1.0,
-      "ext": ".ogg",
-      "layers": [
-        {
-          "velRange": [
-            0.0,
-            1.0
-          ],
-          "map": {
-            "B3": "marimba/mf/B2",
-            "B5": "marimba/mf/B4",
-            "C3": "marimba/mf/C2",
-            "C5": "marimba/mf/C4",
-            "C7": "marimba/mf/C6",
-            "F2": "marimba/mf/F1",
-            "F4": "marimba/mf/F3",
-            "F6": "marimba/mf/F5",
-            "G3": "marimba/mf/G2",
-            "G5": "marimba/mf/G4"
-          }
-        }
-      ]
-    },
-    "oboe": {
-      "release": 1.0,
-      "ext": ".ogg",
-      "layers": [
-        {
-          "velRange": [
-            0.0,
-            0.5
-          ],
-          "map": {
-            "A#3": "oboe/p/As2",
-            "A#4": "oboe/p/As3",
-            "A#5": "oboe/p/As4",
-            "D4": "oboe/p/D3",
-            "D5": "oboe/p/D4",
-            "D6": "oboe/p/D5",
-            "F4": "oboe/p/F3",
-            "F5": "oboe/p/F4",
-            "F6": "oboe/p/F5"
-          }
-        },
-        {
-          "velRange": [
-            0.5,
-            1.0
-          ],
-          "map": {
-            "A#3": "oboe/f/As2",
-            "A#4": "oboe/f/As3",
-            "A#5": "oboe/f/As4",
-            "D4": "oboe/f/D3",
-            "D5": "oboe/f/D4",
-            "D6": "oboe/f/D5",
-            "F4": "oboe/f/F3",
-            "F5": "oboe/f/F4",
-            "F6": "oboe/f/F5"
-          }
-        }
-      ]
-    },
-    "organ": {
-      "release": 1.0,
-      "ext": ".ogg",
-      "layers": [
-        {
-          "velRange": [
-            0.0,
-            1.0
-          ],
-          "map": {
-            "A1": "organ/mf/A1",
-            "A2": "organ/mf/A2",
-            "A3": "organ/mf/A3",
-            "A4": "organ/mf/A4",
-            "A5": "organ/mf/A5",
-            "C1": "organ/mf/C1",
-            "C2": "organ/mf/C2",
-            "C3": "organ/mf/C3",
-            "C4": "organ/mf/C4",
-            "C5": "organ/mf/C5",
-            "C6": "organ/mf/C6",
-            "D#1": "organ/mf/Ds1",
-            "D#2": "organ/mf/Ds2",
-            "D#3": "organ/mf/Ds3",
-            "D#4": "organ/mf/Ds4",
-            "D#5": "organ/mf/Ds5",
-            "F#1": "organ/mf/Fs1",
-            "F#2": "organ/mf/Fs2",
-            "F#3": "organ/mf/Fs3",
-            "F#4": "organ/mf/Fs4",
-            "F#5": "organ/mf/Fs5"
-          }
-        }
-      ]
-    },
-    "piano": {
-      "release": 1.0,
-      "ext": ".mp3",
-      "layers": [
-        {
-          "map": {
-            "A0": "piano/A0",
-            "A1": "piano/A1",
-            "A2": "piano/A2",
-            "A3": "piano/A3",
-            "A4": "piano/A4",
-            "A5": "piano/A5",
-            "A6": "piano/A6",
-            "A7": "piano/A7",
-            "C1": "piano/C1",
-            "C2": "piano/C2",
-            "C3": "piano/C3",
-            "C4": "piano/C4",
-            "C5": "piano/C5",
-            "C6": "piano/C6",
-            "C7": "piano/C7",
-            "C8": "piano/C8",
-            "D#1": "piano/Ds1",
-            "D#2": "piano/Ds2",
-            "D#3": "piano/Ds3",
-            "D#4": "piano/Ds4",
-            "D#5": "piano/Ds5",
-            "D#6": "piano/Ds6",
-            "D#7": "piano/Ds7",
-            "F#1": "piano/Fs1",
-            "F#2": "piano/Fs2",
-            "F#3": "piano/Fs3",
-            "F#4": "piano/Fs4",
-            "F#5": "piano/Fs5",
-            "F#6": "piano/Fs6",
-            "F#7": "piano/Fs7"
-          }
-        }
-      ]
-    },
-    "saxophone": {
-      "release": 1.0,
-      "ext": ".ogg",
-      "layers": [
-        {
-          "velRange": [
-            0.0,
-            1.0
-          ],
-          "map": {
-            "A#2": "saxophone/mf/As1",
-            "A#3": "saxophone/mf/As2",
-            "A#4": "saxophone/mf/As3",
-            "A#5": "saxophone/mf/As4",
-            "C3": "saxophone/mf/C2",
-            "C4": "saxophone/mf/C3",
-            "C5": "saxophone/mf/C4",
-            "C6": "saxophone/mf/C5",
-            "D3": "saxophone/mf/D2",
-            "D4": "saxophone/mf/D3",
-            "D5": "saxophone/mf/D4",
-            "D6": "saxophone/mf/D5",
-            "E3": "saxophone/mf/E2",
-            "E4": "saxophone/mf/E3",
-            "E5": "saxophone/mf/E4",
-            "F#3": "saxophone/mf/Fs2",
-            "F#4": "saxophone/mf/Fs3",
-            "G5": "saxophone/mf/G4",
-            "G#5": "saxophone/mf/Gs4"
-          }
-        }
-      ]
-    },
-    "snare": {
-      "release": 1.0,
-      "ext": ".ogg",
-      "layers": [
-        {
-          "velRange": [
-            0.0,
-            0.5
-          ],
-          "map": {
-            "C4": [
-              "snare/p/C4_1",
-              "snare/p/C4_2"
-            ]
-          }
-        },
-        {
-          "velRange": [
-            0.5,
-            1.0
-          ],
-          "map": {
-            "C4": [
-              "snare/f/C4_1",
-              "snare/f/C4_2"
-            ]
-          }
-        }
-      ]
-    },
-    "tambourine": {
-      "release": 1.0,
-      "ext": ".ogg",
-      "layers": [
-        {
-          "velRange": [
-            0.0,
-            0.5
-          ],
-          "map": {
-            "C4": [
-              "tambourine/p/C4_1",
-              "tambourine/p/C4_2"
-            ]
-          }
-        },
-        {
-          "velRange": [
-            0.5,
-            1.0
-          ],
-          "map": {
-            "C4": "tambourine/f/C4"
-          }
-        }
-      ]
-    },
-    "timpani": {
-      "release": 1.0,
-      "ext": ".ogg",
-      "layers": [
-        {
-          "velRange": [
-            0.0,
-            0.5
-          ],
-          "map": {
-            "F2": [
-              "timpani/p/F2_1",
-              "timpani/p/F2_2",
-              "timpani/p/F2_3"
-            ]
-          }
-        },
-        {
-          "velRange": [
-            0.5,
-            1.0
-          ],
-          "map": {
-            "F2": [
-              "timpani/f/F2_1",
-              "timpani/f/F2_2",
-              "timpani/f/F2_3"
-            ]
-          }
-        }
-      ]
-    },
-    "tom": {
-      "release": 1.0,
-      "ext": ".ogg",
-      "layers": [
-        {
-          "velRange": [
-            0.0,
-            0.5
-          ],
-          "map": {
-            "F2": [
-              "tom/p/F2_1",
-              "tom/p/F2_2"
-            ]
-          }
-        },
-        {
-          "velRange": [
-            0.5,
-            1.0
-          ],
-          "map": {
-            "F2": [
-              "tom/f/F2_1",
-              "tom/f/F2_2"
-            ]
-          }
-        }
-      ]
-    },
-    "triangle": {
-      "release": 1.0,
-      "ext": ".ogg",
-      "layers": [
-        {
-          "velRange": [
-            0.0,
-            0.5
-          ],
-          "map": {
-            "C4": [
-              "triangle/p/C4_1",
-              "triangle/p/C4_2",
-              "triangle/p/C4_3"
-            ]
-          }
-        },
-        {
-          "velRange": [
-            0.5,
-            1.0
-          ],
-          "map": {
-            "C4": [
-              "triangle/f/C4_1",
-              "triangle/f/C4_2",
-              "triangle/f/C4_3"
-            ]
-          }
-        }
-      ]
-    },
-    "trombone": {
-      "release": 1.0,
-      "ext": ".ogg",
-      "layers": [
-        {
-          "velRange": [
-            0.0,
-            0.5
-          ],
-          "map": {
-            "A#1": "trombone/p/As0",
-            "A#2": "trombone/p/As1",
-            "C4": "trombone/p/C3",
-            "C#2": "trombone/p/Cs1",
-            "C#4": "trombone/p/Cs3",
-            "D3": "trombone/p/D2",
-            "D#2": "trombone/p/Ds1",
-            "D#4": "trombone/p/Ds3",
-            "F2": "trombone/p/F1",
-            "F3": "trombone/p/F2",
-            "F4": "trombone/p/F3"
-          }
-        },
-        {
-          "velRange": [
-            0.5,
-            1.0
-          ],
-          "map": {
-            "A#1": "trombone/f/As0",
-            "A#2": "trombone/f/As1",
-            "C4": "trombone/f/C3",
-            "C#2": "trombone/f/Cs1",
-            "C#4": "trombone/f/Cs3",
-            "D3": "trombone/f/D2",
-            "D#2": "trombone/f/Ds1",
-            "D#4": "trombone/f/Ds3",
-            "F2": "trombone/f/F1",
-            "F3": "trombone/f/F2",
-            "F4": "trombone/f/F3"
-          }
-        }
-      ]
-    },
-    "trumpet": {
-      "release": 1.0,
-      "ext": ".ogg",
-      "layers": [
-        {
-          "velRange": [
-            0.0,
-            0.5
-          ],
-          "map": {
-            "A3": "trumpet/p/A2",
-            "A5": "trumpet/p/A4",
-            "A#4": "trumpet/p/As3",
-            "C4": "trumpet/p/C3",
-            "C6": "trumpet/p/C5",
-            "D5": "trumpet/p/D4",
-            "D#4": "trumpet/p/Ds3",
-            "F3": "trumpet/p/F2",
-            "F4": "trumpet/p/F3",
-            "F5": "trumpet/p/F4",
-            "G4": "trumpet/p/G3"
-          }
-        },
-        {
-          "velRange": [
-            0.5,
-            1.0
-          ],
-          "map": {
-            "A3": "trumpet/f/A2",
-            "A5": "trumpet/f/A4",
-            "A#4": "trumpet/f/As3",
-            "C4": "trumpet/f/C3",
-            "C6": "trumpet/f/C5",
-            "D5": "trumpet/f/D4",
-            "D#4": "trumpet/f/Ds3",
-            "F3": "trumpet/f/F2",
-            "F4": "trumpet/f/F3",
-            "F5": "trumpet/f/F4",
-            "G4": "trumpet/f/G3"
-          }
-        }
-      ]
-    },
-    "tubular-bells": {
-      "release": 1.0,
-      "ext": ".ogg",
-      "layers": [
-        {
-          "velRange": [
-            0.0,
-            0.5
-          ],
-          "map": {
-            "A#4": "tubular-bells/p/As3",
-            "C4": "tubular-bells/p/C3",
-            "D4": "tubular-bells/p/D3",
-            "E4": "tubular-bells/p/E3",
-            "E5": "tubular-bells/p/E4"
-          }
-        },
-        {
-          "velRange": [
-            0.5,
-            1.0
-          ],
-          "map": {
-            "F#4": "tubular-bells/f/Fs3"
-          }
-        }
-      ]
-    },
-    "viola": {
-      "release": 1.0,
-      "ext": ".ogg",
-      "layers": [
-        {
-          "velRange": [
-            0.0,
-            0.5
-          ],
-          "map": {
-            "A4": "viola/p/A3",
-            "B3": "viola/p/B2",
-            "B5": "viola/p/B4",
-            "C3": "viola/p/C2",
-            "C5": "viola/p/C4",
-            "D3": "viola/p/D2",
-            "D4": "viola/p/D3",
-            "D6": "viola/p/D5",
-            "E3": "viola/p/E2",
-            "E5": "viola/p/E4",
-            "F4": "viola/p/F3",
-            "G3": "viola/p/G2",
-            "G5": "viola/p/G4"
-          }
-        },
-        {
-          "velRange": [
-            0.5,
-            1.0
-          ],
-          "map": {
-            "A4": "viola/f/A3",
-            "B3": "viola/f/B2",
-            "B5": "viola/f/B4",
-            "C3": "viola/f/C2",
-            "C5": "viola/f/C4",
-            "D3": "viola/f/D2",
-            "D4": "viola/f/D3",
-            "D6": "viola/f/D5",
-            "E3": "viola/f/E2",
-            "E5": "viola/f/E4",
-            "F4": "viola/f/F3",
-            "G3": "viola/f/G2",
-            "G5": "viola/f/G4"
-          }
-        }
-      ]
-    },
-    "violin": {
-      "release": 1.0,
-      "ext": ".ogg",
-      "layers": [
-        {
-          "velRange": [
-            0.0,
-            0.5
-          ],
-          "map": {
-            "A3": "violin/p/A2",
-            "A4": "violin/p/A3",
-            "B3": "violin/p/B2",
-            "B5": "violin/p/B4",
-            "C5": "violin/p/C4",
-            "D4": "violin/p/D3",
-            "D6": "violin/p/D5",
-            "E5": "violin/p/E4",
-            "F#4": "violin/p/Fs3",
-            "G3": "violin/p/G2",
-            "G5": "violin/p/G4"
-          }
-        },
-        {
-          "velRange": [
-            0.5,
-            1.0
-          ],
-          "map": {
-            "A3": "violin/f/A2",
-            "A4": "violin/f/A3",
-            "B3": "violin/f/B2",
-            "B5": "violin/f/B4",
-            "C5": "violin/f/C4",
-            "D4": "violin/f/D3",
-            "D6": "violin/f/D5",
-            "E5": "violin/f/E4",
-            "F#4": "violin/f/Fs3",
-            "G3": "violin/f/G2",
-            "G5": "violin/f/G4"
-          }
-        }
-      ]
-    },
-    "violin-solo": {
-      "release": 1.0,
-      "ext": ".ogg",
-      "layers": [
-        {
-          "velRange": [
-            0.0,
-            1.0
-          ],
-          "map": {
-            "A3": "violin-solo/mf/A3",
-            "A4": "violin-solo/mf/A4",
-            "A5": "violin-solo/mf/A5",
-            "A6": "violin-solo/mf/A6",
-            "C4": "violin-solo/mf/C4",
-            "C5": "violin-solo/mf/C5",
-            "C6": "violin-solo/mf/C6",
-            "C7": "violin-solo/mf/C7",
-            "E4": "violin-solo/mf/E4",
-            "E5": "violin-solo/mf/E5",
-            "E6": "violin-solo/mf/E6",
-            "G3": "violin-solo/mf/G3",
-            "G4": "violin-solo/mf/G4",
-            "G5": "violin-solo/mf/G5",
-            "G6": "violin-solo/mf/G6"
-          }
-        }
-      ]
-    },
-    "woodblock": {
-      "release": 1.0,
-      "ext": ".ogg",
-      "layers": [
-        {
-          "velRange": [
-            0.0,
-            0.5
-          ],
-          "map": {
-            "C4": [
-              "woodblock/p/C4_1",
-              "woodblock/p/C4_2",
-              "woodblock/p/C4_3"
-            ]
-          }
-        },
-        {
-          "velRange": [
-            0.5,
-            1.0
-          ],
-          "map": {
-            "C4": "woodblock/f/C4"
-          }
-        }
-      ]
-    },
-    "xylophone": {
-      "release": 1.0,
-      "ext": ".ogg",
-      "layers": [
-        {
-          "velRange": [
-            0.0,
-            1.0
-          ],
-          "map": {
-            "C5": "xylophone/mf/C4",
-            "C6": "xylophone/mf/C5",
-            "C7": "xylophone/mf/C6",
-            "C8": "xylophone/mf/C7",
-            "G4": "xylophone/mf/G3",
-            "G5": "xylophone/mf/G4",
-            "G6": "xylophone/mf/G5",
-            "G7": "xylophone/mf/G6"
-          }
-        }
-      ]
-    },
-    "soprano-solo": {
-      "ext": ".mp3",
-      "release": 0.6,
-      "layers": [
-        {
-          "map": {
-            "C4": "soprano-solo-hd/C4",
-            "Eb4": "soprano-solo-hd/Eb4",
-            "Gb4": "soprano-solo-hd/Gb4",
-            "A4": "soprano-solo-hd/A4",
-            "C5": "soprano-solo-hd/C5",
-            "Eb5": "soprano-solo-hd/Eb5",
-            "Gb5": "soprano-solo-hd/Gb5",
-            "A5": "soprano-solo-hd/A5",
-            "C6": "soprano-solo-hd/C6"
-          }
-        }
-      ]
-    },
-    "alto-solo": {
-      "ext": ".mp3",
-      "release": 0.6,
-      "layers": [
-        {
-          "map": {
-            "Gb3": "alto-solo-hd/Gb3",
-            "A3": "alto-solo-hd/A3",
-            "C4": "alto-solo-hd/C4",
-            "Eb4": "alto-solo-hd/Eb4",
-            "Gb4": "alto-solo-hd/Gb4",
-            "A4": "alto-solo-hd/A4",
-            "C5": "alto-solo-hd/C5",
-            "Eb5": "alto-solo-hd/Eb5",
-            "Gb5": "alto-solo-hd/Gb5"
-          }
-        }
-      ]
-    },
-    "tenor-solo": {
-      "ext": ".mp3",
-      "release": 0.6,
-      "layers": [
-        {
-          "map": {
-            "C3": "tenor-solo-hd/C3",
-            "Eb3": "tenor-solo-hd/Eb3",
-            "Gb3": "tenor-solo-hd/Gb3",
-            "A3": "tenor-solo-hd/A3",
-            "C4": "tenor-solo-hd/C4",
-            "Eb4": "tenor-solo-hd/Eb4",
-            "Gb4": "tenor-solo-hd/Gb4",
-            "A4": "tenor-solo-hd/A4",
-            "C5": "tenor-solo-hd/C5"
-          }
-        }
-      ]
-    },
-    "baritone-solo": {
-      "ext": ".mp3",
-      "release": 0.6,
-      "layers": [
-        {
-          "map": {
-            "A2": "baritone-solo-hd/A2",
-            "C3": "baritone-solo-hd/C3",
-            "Eb3": "baritone-solo-hd/Eb3",
-            "Gb3": "baritone-solo-hd/Gb3",
-            "A3": "baritone-solo-hd/A3",
-            "C4": "baritone-solo-hd/C4",
-            "Eb4": "baritone-solo-hd/Eb4",
-            "Gb4": "baritone-solo-hd/Gb4",
-            "A4": "baritone-solo-hd/A4"
-          }
-        }
-      ]
-    },
-    "bass-solo": {
-      "ext": ".mp3",
-      "release": 0.6,
-      "layers": [
-        {
-          "map": {
-            "Eb2": "bass-solo-hd/Eb2",
-            "Gb2": "bass-solo-hd/Gb2",
-            "A2": "bass-solo-hd/A2",
-            "C3": "bass-solo-hd/C3",
-            "Eb3": "bass-solo-hd/Eb3",
-            "Gb3": "bass-solo-hd/Gb3",
-            "A3": "bass-solo-hd/A3",
-            "C4": "bass-solo-hd/C4",
-            "Eb4": "bass-solo-hd/Eb4"
-          }
-        }
-      ]
+ "name": "orchestra-samples",
+ "version": "0.2.0",
+ "baseUrl": "./samples/",
+ "ext": ".ogg",
+ "instruments": {
+  "accordion": {
+   "release": 0.4,
+   "ext": ".mp3",
+   "layers": [
+    {
+     "map": {
+      "C2": "accordion/C2",
+      "Eb2": "accordion/Eb2",
+      "Gb2": "accordion/Gb2",
+      "A2": "accordion/A2",
+      "C3": "accordion/C3",
+      "Eb3": "accordion/Eb3",
+      "Gb3": "accordion/Gb3",
+      "A3": "accordion/A3",
+      "C4": "accordion/C4",
+      "Eb4": "accordion/Eb4",
+      "Gb4": "accordion/Gb4",
+      "A4": "accordion/A4",
+      "C5": "accordion/C5",
+      "Eb5": "accordion/Eb5",
+      "Gb5": "accordion/Gb5",
+      "A5": "accordion/A5",
+      "C6": "accordion/C6"
+     }
     }
+   ],
+   "livelloDb": -30.1
+  },
+  "bass-drum": {
+   "release": 1.0,
+   "ext": ".ogg",
+   "layers": [
+    {
+     "velRange": [
+      0.0,
+      0.5
+     ],
+     "map": {
+      "F1": [
+       "bass-drum/p/F1_1",
+       "bass-drum/p/F1_2"
+      ]
+     }
+    },
+    {
+     "velRange": [
+      0.5,
+      1.0
+     ],
+     "map": {
+      "F1": [
+       "bass-drum/f/F1_1",
+       "bass-drum/f/F1_2"
+      ]
+     }
+    }
+   ],
+   "livelloDb": -27.1
+  },
+  "bass-electric": {
+   "release": 1.0,
+   "ext": ".ogg",
+   "layers": [
+    {
+     "velRange": [
+      0.0,
+      1.0
+     ],
+     "map": {
+      "A#1": "bass-electric/mf/As1",
+      "A#2": "bass-electric/mf/As2",
+      "A#3": "bass-electric/mf/As3",
+      "A#4": "bass-electric/mf/As4",
+      "C#1": "bass-electric/mf/Cs1",
+      "C#2": "bass-electric/mf/Cs2",
+      "C#3": "bass-electric/mf/Cs3",
+      "C#4": "bass-electric/mf/Cs4",
+      "C#5": "bass-electric/mf/Cs5",
+      "E1": "bass-electric/mf/E1",
+      "E2": "bass-electric/mf/E2",
+      "E3": "bass-electric/mf/E3",
+      "E4": "bass-electric/mf/E4",
+      "G1": "bass-electric/mf/G1",
+      "G2": "bass-electric/mf/G2",
+      "G3": "bass-electric/mf/G3",
+      "G4": "bass-electric/mf/G4"
+     }
+    }
+   ],
+   "livelloDb": -13.2
+  },
+  "bassoon": {
+   "release": 1.0,
+   "ext": ".ogg",
+   "layers": [
+    {
+     "velRange": [
+      0.0,
+      0.5
+     ],
+     "map": {
+      "A#1": "bassoon/p/As1",
+      "A#2": "bassoon/p/As2",
+      "A#3": "bassoon/p/As3",
+      "A#4": "bassoon/p/As4",
+      "C2": "bassoon/p/C2",
+      "C3": "bassoon/p/C3",
+      "C4": "bassoon/p/C4",
+      "C5": "bassoon/p/C5",
+      "D2": "bassoon/p/D2",
+      "D3": "bassoon/p/D3",
+      "D4": "bassoon/p/D4",
+      "D5": "bassoon/p/D5",
+      "E2": "bassoon/p/E2",
+      "E3": "bassoon/p/E3",
+      "E4": "bassoon/p/E4",
+      "F#2": "bassoon/p/Fs2",
+      "F#3": "bassoon/p/Fs3",
+      "F#4": "bassoon/p/Fs4",
+      "G#2": "bassoon/p/Gs2",
+      "G#3": "bassoon/p/Gs3",
+      "G#4": "bassoon/p/Gs4"
+     }
+    },
+    {
+     "velRange": [
+      0.5,
+      1.0
+     ],
+     "map": {
+      "A#1": "bassoon/f/As1",
+      "A#2": "bassoon/f/As2",
+      "A#3": "bassoon/f/As3",
+      "A#4": "bassoon/f/As4",
+      "C2": "bassoon/f/C2",
+      "C3": "bassoon/f/C3",
+      "C4": "bassoon/f/C4",
+      "C5": "bassoon/f/C5",
+      "D2": "bassoon/f/D2",
+      "D3": "bassoon/f/D3",
+      "D4": "bassoon/f/D4",
+      "D5": "bassoon/f/D5",
+      "E2": "bassoon/f/E2",
+      "E3": "bassoon/f/E3",
+      "E4": "bassoon/f/E4",
+      "F#2": "bassoon/f/Fs2",
+      "F#3": "bassoon/f/Fs3",
+      "F#4": "bassoon/f/Fs4",
+      "G#2": "bassoon/f/Gs2",
+      "G#3": "bassoon/f/Gs3",
+      "G#4": "bassoon/f/Gs4"
+     }
+    }
+   ],
+   "livelloDb": -20.0
+  },
+  "cello": {
+   "release": 1.0,
+   "ext": ".ogg",
+   "layers": [
+    {
+     "velRange": [
+      0.0,
+      0.5
+     ],
+     "map": {
+      "A3": "cello/p/A2",
+      "B2": "cello/p/B1",
+      "B4": "cello/p/B3",
+      "C2": "cello/p/C1",
+      "C4": "cello/p/C3",
+      "D3": "cello/p/D2",
+      "D5": "cello/p/D4",
+      "E2": "cello/p/E1",
+      "E4": "cello/p/E3",
+      "F3": "cello/p/F2",
+      "F5": "cello/p/F4",
+      "G2": "cello/p/G1",
+      "G4": "cello/p/G3"
+     }
+    },
+    {
+     "velRange": [
+      0.5,
+      1.0
+     ],
+     "map": {
+      "A3": "cello/f/A2",
+      "B2": "cello/f/B1",
+      "B4": "cello/f/B3",
+      "C2": "cello/f/C1",
+      "C4": "cello/f/C3",
+      "D3": "cello/f/D2",
+      "D5": "cello/f/D4",
+      "E2": "cello/f/E1",
+      "E4": "cello/f/E3",
+      "F3": "cello/f/F2",
+      "F5": "cello/f/F4",
+      "G2": "cello/f/G1",
+      "G4": "cello/f/G3"
+     }
+    }
+   ],
+   "livelloDb": -24.1
+  },
+  "choir-aah": {
+   "release": 1.0,
+   "ext": ".mp3",
+   "layers": [
+    {
+     "map": {
+      "A2": "choir-aah/A2",
+      "A3": "choir-aah/A3",
+      "A4": "choir-aah/A4",
+      "A5": "choir-aah/A5",
+      "C2": "choir-aah/C2",
+      "C3": "choir-aah/C3",
+      "C4": "choir-aah/C4",
+      "C5": "choir-aah/C5",
+      "C6": "choir-aah/C6",
+      "Eb2": "choir-aah/Eb2",
+      "Eb3": "choir-aah/Eb3",
+      "Eb4": "choir-aah/Eb4",
+      "Eb5": "choir-aah/Eb5",
+      "Gb2": "choir-aah/Gb2",
+      "Gb3": "choir-aah/Gb3",
+      "Gb4": "choir-aah/Gb4",
+      "Gb5": "choir-aah/Gb5"
+     }
+    }
+   ],
+   "livelloDb": -30.3
+  },
+  "clarinet": {
+   "release": 1.0,
+   "ext": ".ogg",
+   "layers": [
+    {
+     "velRange": [
+      0.0,
+      0.5
+     ],
+     "map": {
+      "A#3": "clarinet/p/As3",
+      "A#4": "clarinet/p/As4",
+      "A#5": "clarinet/p/As5",
+      "C4": "clarinet/p/C4",
+      "C5": "clarinet/p/C5",
+      "C6": "clarinet/p/C6",
+      "D3": "clarinet/p/D3",
+      "D4": "clarinet/p/D4",
+      "D5": "clarinet/p/D5",
+      "D6": "clarinet/p/D6",
+      "E3": "clarinet/p/E3",
+      "E4": "clarinet/p/E4",
+      "E5": "clarinet/p/E5",
+      "E6": "clarinet/p/E6",
+      "F#3": "clarinet/p/Fs3",
+      "F#4": "clarinet/p/Fs4",
+      "F#5": "clarinet/p/Fs5",
+      "F#6": "clarinet/p/Fs6",
+      "G#3": "clarinet/p/Gs3",
+      "G#4": "clarinet/p/Gs4",
+      "G#5": "clarinet/p/Gs5"
+     }
+    },
+    {
+     "velRange": [
+      0.5,
+      1.0
+     ],
+     "map": {
+      "A#3": "clarinet/f/As3",
+      "A#4": "clarinet/f/As4",
+      "A#5": "clarinet/f/As5",
+      "C4": "clarinet/f/C4",
+      "C5": "clarinet/f/C5",
+      "C6": "clarinet/f/C6",
+      "D3": "clarinet/f/D3",
+      "D4": "clarinet/f/D4",
+      "D5": "clarinet/f/D5",
+      "D6": "clarinet/f/D6",
+      "E3": "clarinet/f/E3",
+      "E4": "clarinet/f/E4",
+      "E5": "clarinet/f/E5",
+      "E6": "clarinet/f/E6",
+      "F#3": "clarinet/f/Fs3",
+      "F#4": "clarinet/f/Fs4",
+      "F#5": "clarinet/f/Fs5",
+      "F#6": "clarinet/f/Fs6",
+      "G#3": "clarinet/f/Gs3",
+      "G#4": "clarinet/f/Gs4",
+      "G#5": "clarinet/f/Gs5"
+     }
+    }
+   ],
+   "livelloDb": -20.0
+  },
+  "contrabass": {
+   "release": 1.0,
+   "ext": ".ogg",
+   "layers": [
+    {
+     "velRange": [
+      0.0,
+      0.5
+     ],
+     "map": {
+      "A2": "contrabass/p/A1",
+      "A#1": "contrabass/p/As0",
+      "B3": "contrabass/p/B2",
+      "C2": "contrabass/p/C1",
+      "C#3": "contrabass/p/Cs2",
+      "D2": "contrabass/p/D1",
+      "E2": "contrabass/p/E1",
+      "E3": "contrabass/p/E2",
+      "F#1": "contrabass/p/Fs0",
+      "F#2": "contrabass/p/Fs1",
+      "G1": "contrabass/p/G0",
+      "G#2": "contrabass/p/Gs1",
+      "G#3": "contrabass/p/Gs2"
+     }
+    },
+    {
+     "velRange": [
+      0.5,
+      1.0
+     ],
+     "map": {
+      "A2": "contrabass/f/A1",
+      "A#1": "contrabass/f/As0",
+      "B3": "contrabass/f/B2",
+      "C2": "contrabass/f/C1",
+      "C#3": "contrabass/f/Cs2",
+      "D2": "contrabass/f/D1",
+      "E2": "contrabass/f/E1",
+      "E3": "contrabass/f/E2",
+      "F#1": "contrabass/f/Fs0",
+      "F#2": "contrabass/f/Fs1",
+      "G1": "contrabass/f/G0",
+      "G#2": "contrabass/f/Gs1",
+      "G#3": "contrabass/f/Gs2"
+     }
+    }
+   ],
+   "livelloDb": -32.4
+  },
+  "cymbals": {
+   "release": 1.0,
+   "ext": ".ogg",
+   "layers": [
+    {
+     "velRange": [
+      0.0,
+      0.5
+     ],
+     "map": {
+      "C4": [
+       "cymbals/p/C4_1",
+       "cymbals/p/C4_2"
+      ]
+     }
+    },
+    {
+     "velRange": [
+      0.5,
+      1.0
+     ],
+     "map": {
+      "C4": [
+       "cymbals/f/C4_1",
+       "cymbals/f/C4_2"
+      ]
+     }
+    }
+   ],
+   "livelloDb": -28.1
+  },
+  "flute": {
+   "release": 1.0,
+   "ext": ".ogg",
+   "layers": [
+    {
+     "velRange": [
+      0.0,
+      0.5
+     ],
+     "map": {
+      "A#4": "flute/p/As4",
+      "A#5": "flute/p/As5",
+      "A#6": "flute/p/As6",
+      "C4": "flute/p/C4",
+      "C5": "flute/p/C5",
+      "C6": "flute/p/C6",
+      "C7": "flute/p/C7",
+      "D4": "flute/p/D4",
+      "D5": "flute/p/D5",
+      "D6": "flute/p/D6",
+      "E4": "flute/p/E4",
+      "E5": "flute/p/E5",
+      "E6": "flute/p/E6",
+      "F#4": "flute/p/Fs4",
+      "F#5": "flute/p/Fs5",
+      "F#6": "flute/p/Fs6",
+      "G#4": "flute/p/Gs4",
+      "G#5": "flute/p/Gs5",
+      "G#6": "flute/p/Gs6"
+     }
+    },
+    {
+     "velRange": [
+      0.5,
+      1.0
+     ],
+     "map": {
+      "A#4": "flute/f/As4",
+      "A#5": "flute/f/As5",
+      "A#6": "flute/f/As6",
+      "C4": "flute/f/C4",
+      "C5": "flute/f/C5",
+      "C6": "flute/f/C6",
+      "C7": "flute/f/C7",
+      "D4": "flute/f/D4",
+      "D5": "flute/f/D5",
+      "D6": "flute/f/D6",
+      "E4": "flute/f/E4",
+      "E5": "flute/f/E5",
+      "E6": "flute/f/E6",
+      "F#4": "flute/f/Fs4",
+      "F#5": "flute/f/Fs5",
+      "F#6": "flute/f/Fs6",
+      "G#4": "flute/f/Gs4",
+      "G#5": "flute/f/Gs5",
+      "G#6": "flute/f/Gs6"
+     }
+    }
+   ],
+   "livelloDb": -20.0
+  },
+  "french-horn": {
+   "release": 1.0,
+   "ext": ".ogg",
+   "layers": [
+    {
+     "velRange": [
+      0.0,
+      0.5
+     ],
+     "map": {
+      "A2": "french-horn/p/A2",
+      "A3": "french-horn/p/A3",
+      "A4": "french-horn/p/A4",
+      "B1": "french-horn/p/B1",
+      "B2": "french-horn/p/B2",
+      "B3": "french-horn/p/B3",
+      "B4": "french-horn/p/B4",
+      "C#2": "french-horn/p/Cs2",
+      "C#3": "french-horn/p/Cs3",
+      "C#4": "french-horn/p/Cs4",
+      "D#2": "french-horn/p/Ds2",
+      "D#3": "french-horn/p/Ds3",
+      "D#4": "french-horn/p/Ds4",
+      "F2": "french-horn/p/F2",
+      "F3": "french-horn/p/F3",
+      "F4": "french-horn/p/F4",
+      "G2": "french-horn/p/G2",
+      "G3": "french-horn/p/G3",
+      "G4": "french-horn/p/G4"
+     }
+    },
+    {
+     "velRange": [
+      0.5,
+      1.0
+     ],
+     "map": {
+      "A2": "french-horn/f/A2",
+      "A3": "french-horn/f/A3",
+      "A4": "french-horn/f/A4",
+      "B1": "french-horn/f/B1",
+      "B2": "french-horn/f/B2",
+      "B3": "french-horn/f/B3",
+      "B4": "french-horn/f/B4",
+      "C#2": "french-horn/f/Cs2",
+      "C#3": "french-horn/f/Cs3",
+      "C#4": "french-horn/f/Cs4",
+      "C#5": "french-horn/f/Cs5",
+      "D#2": "french-horn/f/Ds2",
+      "D#3": "french-horn/f/Ds3",
+      "D#4": "french-horn/f/Ds4",
+      "D#5": "french-horn/f/Ds5",
+      "F2": "french-horn/f/F2",
+      "F3": "french-horn/f/F3",
+      "F4": "french-horn/f/F4",
+      "F5": "french-horn/f/F5",
+      "G2": "french-horn/f/G2",
+      "G3": "french-horn/f/G3",
+      "G4": "french-horn/f/G4"
+     }
+    }
+   ],
+   "livelloDb": -20.0
+  },
+  "glockenspiel": {
+   "release": 1.0,
+   "ext": ".ogg",
+   "layers": [
+    {
+     "velRange": [
+      0.0,
+      1.0
+     ],
+     "map": {
+      "C6": "glockenspiel/mf/C5",
+      "C7": "glockenspiel/mf/C6",
+      "C8": "glockenspiel/mf/C7",
+      "G5": "glockenspiel/mf/G4",
+      "G6": "glockenspiel/mf/G5",
+      "G7": "glockenspiel/mf/G6"
+     }
+    }
+   ],
+   "livelloDb": -43.4
+  },
+  "gong": {
+   "release": 1.0,
+   "ext": ".ogg",
+   "layers": [
+    {
+     "velRange": [
+      0.0,
+      0.5
+     ],
+     "map": {
+      "C4": "gong/p/C4"
+     }
+    },
+    {
+     "velRange": [
+      0.5,
+      1.0
+     ],
+     "map": {
+      "C4": "gong/f/C4"
+     }
+    }
+   ],
+   "livelloDb": -25.4
+  },
+  "guitar-acoustic": {
+   "release": 1.0,
+   "ext": ".ogg",
+   "layers": [
+    {
+     "velRange": [
+      0.0,
+      1.0
+     ],
+     "map": {
+      "A2": "guitar-acoustic/mf/A2",
+      "A3": "guitar-acoustic/mf/A3",
+      "A4": "guitar-acoustic/mf/A4",
+      "A#2": "guitar-acoustic/mf/As2",
+      "A#3": "guitar-acoustic/mf/As3",
+      "A#4": "guitar-acoustic/mf/As4",
+      "B2": "guitar-acoustic/mf/B2",
+      "B3": "guitar-acoustic/mf/B3",
+      "B4": "guitar-acoustic/mf/B4",
+      "C3": "guitar-acoustic/mf/C3",
+      "C4": "guitar-acoustic/mf/C4",
+      "C5": "guitar-acoustic/mf/C5",
+      "C#3": "guitar-acoustic/mf/Cs3",
+      "C#4": "guitar-acoustic/mf/Cs4",
+      "C#5": "guitar-acoustic/mf/Cs5",
+      "D2": "guitar-acoustic/mf/D2",
+      "D3": "guitar-acoustic/mf/D3",
+      "D4": "guitar-acoustic/mf/D4",
+      "D5": "guitar-acoustic/mf/D5",
+      "D#2": "guitar-acoustic/mf/Ds2",
+      "D#3": "guitar-acoustic/mf/Ds3",
+      "D#4": "guitar-acoustic/mf/Ds4",
+      "E2": "guitar-acoustic/mf/E2",
+      "E3": "guitar-acoustic/mf/E3",
+      "E4": "guitar-acoustic/mf/E4",
+      "F2": "guitar-acoustic/mf/F2",
+      "F3": "guitar-acoustic/mf/F3",
+      "F4": "guitar-acoustic/mf/F4",
+      "F#2": "guitar-acoustic/mf/Fs2",
+      "F#3": "guitar-acoustic/mf/Fs3",
+      "F#4": "guitar-acoustic/mf/Fs4",
+      "G2": "guitar-acoustic/mf/G2",
+      "G3": "guitar-acoustic/mf/G3",
+      "G4": "guitar-acoustic/mf/G4",
+      "G#2": "guitar-acoustic/mf/Gs2",
+      "G#3": "guitar-acoustic/mf/Gs3",
+      "G#4": "guitar-acoustic/mf/Gs4"
+     }
+    }
+   ],
+   "livelloDb": -13.7
+  },
+  "guitar-electric": {
+   "release": 1.0,
+   "ext": ".ogg",
+   "layers": [
+    {
+     "velRange": [
+      0.0,
+      1.0
+     ],
+     "map": {
+      "A2": "guitar-electric/mf/A2",
+      "A3": "guitar-electric/mf/A3",
+      "A4": "guitar-electric/mf/A4",
+      "A5": "guitar-electric/mf/A5",
+      "C3": "guitar-electric/mf/C3",
+      "C4": "guitar-electric/mf/C4",
+      "C5": "guitar-electric/mf/C5",
+      "C6": "guitar-electric/mf/C6",
+      "C#2": "guitar-electric/mf/Cs2",
+      "D#3": "guitar-electric/mf/Ds3",
+      "D#4": "guitar-electric/mf/Ds4",
+      "D#5": "guitar-electric/mf/Ds5",
+      "E2": "guitar-electric/mf/E2",
+      "F#2": "guitar-electric/mf/Fs2",
+      "F#3": "guitar-electric/mf/Fs3",
+      "F#4": "guitar-electric/mf/Fs4",
+      "F#5": "guitar-electric/mf/Fs5"
+     }
+    }
+   ],
+   "livelloDb": -17.5
+  },
+  "harp": {
+   "release": 1.0,
+   "ext": ".ogg",
+   "layers": [
+    {
+     "velRange": [
+      0.0,
+      1.0
+     ],
+     "map": {
+      "A2": "harp/mf/A2",
+      "A4": "harp/mf/A4",
+      "A6": "harp/mf/A6",
+      "B1": "harp/mf/B1",
+      "B3": "harp/mf/B3",
+      "B5": "harp/mf/B5",
+      "B6": "harp/mf/B6",
+      "C3": "harp/mf/C3",
+      "C5": "harp/mf/C5",
+      "D2": "harp/mf/D2",
+      "D4": "harp/mf/D4",
+      "D6": "harp/mf/D6",
+      "D7": "harp/mf/D7",
+      "E1": "harp/mf/E1",
+      "E3": "harp/mf/E3",
+      "E5": "harp/mf/E5",
+      "F2": "harp/mf/F2",
+      "F4": "harp/mf/F4",
+      "F6": "harp/mf/F6",
+      "F7": "harp/mf/F7",
+      "G1": "harp/mf/G1",
+      "G3": "harp/mf/G3",
+      "G5": "harp/mf/G5"
+     }
+    }
+   ],
+   "livelloDb": -39.1
+  },
+  "hi-hat": {
+   "release": 1.0,
+   "ext": ".ogg",
+   "layers": [
+    {
+     "velRange": [
+      0.0,
+      0.5
+     ],
+     "map": {
+      "C4": [
+       "hi-hat/p/C4_1",
+       "hi-hat/p/C4_2"
+      ]
+     }
+    },
+    {
+     "velRange": [
+      0.5,
+      1.0
+     ],
+     "map": {
+      "C4": [
+       "hi-hat/f/C4_1",
+       "hi-hat/f/C4_2"
+      ]
+     }
+    }
+   ],
+   "livelloDb": -44.0
+  },
+  "marimba": {
+   "release": 1.0,
+   "ext": ".ogg",
+   "layers": [
+    {
+     "velRange": [
+      0.0,
+      1.0
+     ],
+     "map": {
+      "B3": "marimba/mf/B2",
+      "B5": "marimba/mf/B4",
+      "C3": "marimba/mf/C2",
+      "C5": "marimba/mf/C4",
+      "C7": "marimba/mf/C6",
+      "F2": "marimba/mf/F1",
+      "F4": "marimba/mf/F3",
+      "F6": "marimba/mf/F5",
+      "G3": "marimba/mf/G2",
+      "G5": "marimba/mf/G4"
+     }
+    }
+   ],
+   "livelloDb": -36.7
+  },
+  "oboe": {
+   "release": 1.0,
+   "ext": ".ogg",
+   "layers": [
+    {
+     "velRange": [
+      0.0,
+      0.5
+     ],
+     "map": {
+      "A#3": "oboe/p/As3",
+      "A#4": "oboe/p/As4",
+      "A#5": "oboe/p/As5",
+      "C4": "oboe/p/C4",
+      "C5": "oboe/p/C5",
+      "C6": "oboe/p/C6",
+      "D4": "oboe/p/D4",
+      "D5": "oboe/p/D5",
+      "D6": "oboe/p/D6",
+      "E4": "oboe/p/E4",
+      "E5": "oboe/p/E5",
+      "E6": "oboe/p/E6",
+      "F#4": "oboe/p/Fs4",
+      "F#5": "oboe/p/Fs5",
+      "G#4": "oboe/p/Gs4",
+      "G#5": "oboe/p/Gs5"
+     }
+    },
+    {
+     "velRange": [
+      0.5,
+      1.0
+     ],
+     "map": {
+      "A#3": "oboe/f/As3",
+      "A#4": "oboe/f/As4",
+      "A#5": "oboe/f/As5",
+      "C4": "oboe/f/C4",
+      "C5": "oboe/f/C5",
+      "C6": "oboe/f/C6",
+      "D4": "oboe/f/D4",
+      "D5": "oboe/f/D5",
+      "D6": "oboe/f/D6",
+      "E4": "oboe/f/E4",
+      "E5": "oboe/f/E5",
+      "E6": "oboe/f/E6",
+      "F#4": "oboe/f/Fs4",
+      "F#5": "oboe/f/Fs5",
+      "G#4": "oboe/f/Gs4",
+      "G#5": "oboe/f/Gs5"
+     }
+    }
+   ],
+   "livelloDb": -20.0
+  },
+  "organ": {
+   "release": 1.0,
+   "ext": ".ogg",
+   "layers": [
+    {
+     "velRange": [
+      0.0,
+      1.0
+     ],
+     "map": {
+      "A1": "organ/mf/A1",
+      "A2": "organ/mf/A2",
+      "A3": "organ/mf/A3",
+      "A4": "organ/mf/A4",
+      "A5": "organ/mf/A5",
+      "C1": "organ/mf/C1",
+      "C2": "organ/mf/C2",
+      "C3": "organ/mf/C3",
+      "C4": "organ/mf/C4",
+      "C5": "organ/mf/C5",
+      "C6": "organ/mf/C6",
+      "D#1": "organ/mf/Ds1",
+      "D#2": "organ/mf/Ds2",
+      "D#3": "organ/mf/Ds3",
+      "D#4": "organ/mf/Ds4",
+      "D#5": "organ/mf/Ds5",
+      "F#1": "organ/mf/Fs1",
+      "F#2": "organ/mf/Fs2",
+      "F#3": "organ/mf/Fs3",
+      "F#4": "organ/mf/Fs4",
+      "F#5": "organ/mf/Fs5"
+     }
+    }
+   ],
+   "livelloDb": -33.2
+  },
+  "piano": {
+   "release": 1.0,
+   "ext": ".mp3",
+   "layers": [
+    {
+     "map": {
+      "A0": "piano/A0",
+      "A1": "piano/A1",
+      "A2": "piano/A2",
+      "A3": "piano/A3",
+      "A4": "piano/A4",
+      "A5": "piano/A5",
+      "A6": "piano/A6",
+      "A7": "piano/A7",
+      "C1": "piano/C1",
+      "C2": "piano/C2",
+      "C3": "piano/C3",
+      "C4": "piano/C4",
+      "C5": "piano/C5",
+      "C6": "piano/C6",
+      "C7": "piano/C7",
+      "C8": "piano/C8",
+      "D#1": "piano/Ds1",
+      "D#2": "piano/Ds2",
+      "D#3": "piano/Ds3",
+      "D#4": "piano/Ds4",
+      "D#5": "piano/Ds5",
+      "D#6": "piano/Ds6",
+      "D#7": "piano/Ds7",
+      "F#1": "piano/Fs1",
+      "F#2": "piano/Fs2",
+      "F#3": "piano/Fs3",
+      "F#4": "piano/Fs4",
+      "F#5": "piano/Fs5",
+      "F#6": "piano/Fs6",
+      "F#7": "piano/Fs7"
+     }
+    }
+   ],
+   "livelloDb": -24.0
+  },
+  "saxophone": {
+   "release": 1.0,
+   "ext": ".ogg",
+   "layers": [
+    {
+     "velRange": [
+      0.0,
+      0.5
+     ],
+     "map": {
+      "A#3": "saxophone/p/As3",
+      "A#4": "saxophone/p/As4",
+      "A#5": "saxophone/p/As5",
+      "C4": "saxophone/p/C4",
+      "C5": "saxophone/p/C5",
+      "C6": "saxophone/p/C6",
+      "D4": "saxophone/p/D4",
+      "D5": "saxophone/p/D5",
+      "D6": "saxophone/p/D6",
+      "E3": "saxophone/p/E3",
+      "E4": "saxophone/p/E4",
+      "E5": "saxophone/p/E5",
+      "F#3": "saxophone/p/Fs3",
+      "F#4": "saxophone/p/Fs4",
+      "F#5": "saxophone/p/Fs5",
+      "G#3": "saxophone/p/Gs3",
+      "G#4": "saxophone/p/Gs4",
+      "G#5": "saxophone/p/Gs5"
+     }
+    },
+    {
+     "velRange": [
+      0.5,
+      1.0
+     ],
+     "map": {
+      "A#3": "saxophone/f/As3",
+      "A#4": "saxophone/f/As4",
+      "A#5": "saxophone/f/As5",
+      "C4": "saxophone/f/C4",
+      "C5": "saxophone/f/C5",
+      "C6": "saxophone/f/C6",
+      "D3": "saxophone/f/D3",
+      "D4": "saxophone/f/D4",
+      "D5": "saxophone/f/D5",
+      "D6": "saxophone/f/D6",
+      "E3": "saxophone/f/E3",
+      "E4": "saxophone/f/E4",
+      "E5": "saxophone/f/E5",
+      "F#3": "saxophone/f/Fs3",
+      "F#4": "saxophone/f/Fs4",
+      "F#5": "saxophone/f/Fs5",
+      "G#3": "saxophone/f/Gs3",
+      "G#4": "saxophone/f/Gs4",
+      "G#5": "saxophone/f/Gs5"
+     }
+    }
+   ],
+   "livelloDb": -20.0
+  },
+  "snare": {
+   "release": 1.0,
+   "ext": ".ogg",
+   "layers": [
+    {
+     "velRange": [
+      0.0,
+      0.5
+     ],
+     "map": {
+      "C4": [
+       "snare/p/C4_1",
+       "snare/p/C4_2"
+      ]
+     }
+    },
+    {
+     "velRange": [
+      0.5,
+      1.0
+     ],
+     "map": {
+      "C4": [
+       "snare/f/C4_1",
+       "snare/f/C4_2"
+      ]
+     }
+    }
+   ],
+   "livelloDb": -35.0
+  },
+  "tambourine": {
+   "release": 1.0,
+   "ext": ".ogg",
+   "layers": [
+    {
+     "velRange": [
+      0.0,
+      0.5
+     ],
+     "map": {
+      "C4": [
+       "tambourine/p/C4_1",
+       "tambourine/p/C4_2"
+      ]
+     }
+    },
+    {
+     "velRange": [
+      0.5,
+      1.0
+     ],
+     "map": {
+      "C4": "tambourine/f/C4"
+     }
+    }
+   ],
+   "livelloDb": -47.9
+  },
+  "timpani": {
+   "release": 1.0,
+   "ext": ".ogg",
+   "layers": [
+    {
+     "velRange": [
+      0.0,
+      0.5
+     ],
+     "map": {
+      "A2": "timpani/p/A2",
+      "A3": "timpani/p/A3",
+      "A#2": "timpani/p/As2",
+      "B2": "timpani/p/B2",
+      "B3": "timpani/p/B3",
+      "C3": "timpani/p/C3",
+      "C#3": "timpani/p/Cs3",
+      "D3": "timpani/p/D3",
+      "D4": "timpani/p/D4",
+      "E2": "timpani/p/E2",
+      "E3": "timpani/p/E3",
+      "F3": "timpani/p/F3",
+      "F#3": "timpani/p/Fs3",
+      "G2": "timpani/p/G2"
+     }
+    },
+    {
+     "velRange": [
+      0.5,
+      1.0
+     ],
+     "map": {
+      "A2": "timpani/f/A2",
+      "A3": "timpani/f/A3",
+      "A#2": "timpani/f/As2",
+      "B2": "timpani/f/B2",
+      "B3": "timpani/f/B3",
+      "C3": "timpani/f/C3",
+      "C#3": "timpani/f/Cs3",
+      "D3": "timpani/f/D3",
+      "D4": "timpani/f/D4",
+      "E2": "timpani/f/E2",
+      "E3": "timpani/f/E3",
+      "F3": "timpani/f/F3",
+      "F#3": "timpani/f/Fs3",
+      "G2": "timpani/f/G2"
+     }
+    }
+   ],
+   "livelloDb": -20.0
+  },
+  "tom": {
+   "release": 1.0,
+   "ext": ".ogg",
+   "layers": [
+    {
+     "velRange": [
+      0.0,
+      0.5
+     ],
+     "map": {
+      "F2": [
+       "tom/p/F2_1",
+       "tom/p/F2_2"
+      ]
+     }
+    },
+    {
+     "velRange": [
+      0.5,
+      1.0
+     ],
+     "map": {
+      "F2": [
+       "tom/f/F2_1",
+       "tom/f/F2_2"
+      ]
+     }
+    }
+   ],
+   "livelloDb": -53.3
+  },
+  "triangle": {
+   "release": 1.0,
+   "ext": ".ogg",
+   "layers": [
+    {
+     "velRange": [
+      0.0,
+      0.5
+     ],
+     "map": {
+      "C4": [
+       "triangle/p/C4_1",
+       "triangle/p/C4_2",
+       "triangle/p/C4_3"
+      ]
+     }
+    },
+    {
+     "velRange": [
+      0.5,
+      1.0
+     ],
+     "map": {
+      "C4": [
+       "triangle/f/C4_1",
+       "triangle/f/C4_2",
+       "triangle/f/C4_3"
+      ]
+     }
+    }
+   ],
+   "livelloDb": -56.5
+  },
+  "trombone": {
+   "release": 1.0,
+   "ext": ".ogg",
+   "layers": [
+    {
+     "velRange": [
+      0.0,
+      0.5
+     ],
+     "map": {
+      "A#2": "trombone/p/As2",
+      "A#3": "trombone/p/As3",
+      "A#4": "trombone/p/As4",
+      "C3": "trombone/p/C3",
+      "C4": "trombone/p/C4",
+      "C5": "trombone/p/C5",
+      "D3": "trombone/p/D3",
+      "D4": "trombone/p/D4",
+      "E2": "trombone/p/E2",
+      "E3": "trombone/p/E3",
+      "E4": "trombone/p/E4",
+      "F#2": "trombone/p/Fs2",
+      "F#3": "trombone/p/Fs3",
+      "F#4": "trombone/p/Fs4",
+      "G#2": "trombone/p/Gs2",
+      "G#3": "trombone/p/Gs3",
+      "G#4": "trombone/p/Gs4"
+     }
+    },
+    {
+     "velRange": [
+      0.5,
+      1.0
+     ],
+     "map": {
+      "A#2": "trombone/f/As2",
+      "A#3": "trombone/f/As3",
+      "A#4": "trombone/f/As4",
+      "C3": "trombone/f/C3",
+      "C4": "trombone/f/C4",
+      "C5": "trombone/f/C5",
+      "D3": "trombone/f/D3",
+      "D4": "trombone/f/D4",
+      "E2": "trombone/f/E2",
+      "E3": "trombone/f/E3",
+      "E4": "trombone/f/E4",
+      "F#3": "trombone/f/Fs3",
+      "F#4": "trombone/f/Fs4",
+      "G#3": "trombone/f/Gs3",
+      "G#4": "trombone/f/Gs4"
+     }
+    }
+   ],
+   "livelloDb": -20.0
+  },
+  "trumpet": {
+   "release": 1.0,
+   "ext": ".ogg",
+   "layers": [
+    {
+     "velRange": [
+      0.0,
+      0.5
+     ],
+     "map": {
+      "A3": "trumpet/p/A3",
+      "A4": "trumpet/p/A4",
+      "A5": "trumpet/p/A5",
+      "B3": "trumpet/p/B3",
+      "B4": "trumpet/p/B4",
+      "B5": "trumpet/p/B5",
+      "C#4": "trumpet/p/Cs4",
+      "C#5": "trumpet/p/Cs5",
+      "D#4": "trumpet/p/Ds4",
+      "D#5": "trumpet/p/Ds5",
+      "F3": "trumpet/p/F3",
+      "F4": "trumpet/p/F4",
+      "F5": "trumpet/p/F5",
+      "G3": "trumpet/p/G3",
+      "G4": "trumpet/p/G4",
+      "G5": "trumpet/p/G5"
+     }
+    },
+    {
+     "velRange": [
+      0.5,
+      1.0
+     ],
+     "map": {
+      "A3": "trumpet/f/A3",
+      "A4": "trumpet/f/A4",
+      "A5": "trumpet/f/A5",
+      "B3": "trumpet/f/B3",
+      "B4": "trumpet/f/B4",
+      "B5": "trumpet/f/B5",
+      "C#4": "trumpet/f/Cs4",
+      "C#5": "trumpet/f/Cs5",
+      "D#4": "trumpet/f/Ds4",
+      "D#5": "trumpet/f/Ds5",
+      "F3": "trumpet/f/F3",
+      "F4": "trumpet/f/F4",
+      "F5": "trumpet/f/F5",
+      "G3": "trumpet/f/G3",
+      "G4": "trumpet/f/G4",
+      "G5": "trumpet/f/G5"
+     }
+    }
+   ],
+   "livelloDb": -20.0
+  },
+  "tubular-bells": {
+   "release": 1.0,
+   "ext": ".ogg",
+   "layers": [
+    {
+     "velRange": [
+      0.0,
+      0.5
+     ],
+     "map": {
+      "A#4": "tubular-bells/p/As3",
+      "C4": "tubular-bells/p/C3",
+      "D4": "tubular-bells/p/D3",
+      "E4": "tubular-bells/p/E3",
+      "E5": "tubular-bells/p/E4"
+     }
+    },
+    {
+     "velRange": [
+      0.5,
+      1.0
+     ],
+     "map": {
+      "F#4": "tubular-bells/f/Fs3"
+     }
+    }
+   ],
+   "livelloDb": -41.2
+  },
+  "viola": {
+   "release": 1.0,
+   "ext": ".ogg",
+   "layers": [
+    {
+     "velRange": [
+      0.0,
+      0.5
+     ],
+     "map": {
+      "A4": "viola/p/A3",
+      "B3": "viola/p/B2",
+      "B5": "viola/p/B4",
+      "C3": "viola/p/C2",
+      "C5": "viola/p/C4",
+      "D3": "viola/p/D2",
+      "D4": "viola/p/D3",
+      "D6": "viola/p/D5",
+      "E3": "viola/p/E2",
+      "E5": "viola/p/E4",
+      "F4": "viola/p/F3",
+      "G3": "viola/p/G2",
+      "G5": "viola/p/G4"
+     }
+    },
+    {
+     "velRange": [
+      0.5,
+      1.0
+     ],
+     "map": {
+      "A4": "viola/f/A3",
+      "B3": "viola/f/B2",
+      "B5": "viola/f/B4",
+      "C3": "viola/f/C2",
+      "C5": "viola/f/C4",
+      "D3": "viola/f/D2",
+      "D4": "viola/f/D3",
+      "D6": "viola/f/D5",
+      "E3": "viola/f/E2",
+      "E5": "viola/f/E4",
+      "F4": "viola/f/F3",
+      "G3": "viola/f/G2",
+      "G5": "viola/f/G4"
+     }
+    }
+   ],
+   "livelloDb": -26.5
+  },
+  "violin": {
+   "release": 1.0,
+   "ext": ".ogg",
+   "layers": [
+    {
+     "velRange": [
+      0.0,
+      0.5
+     ],
+     "map": {
+      "A3": "violin/p/A2",
+      "A4": "violin/p/A3",
+      "B3": "violin/p/B2",
+      "B5": "violin/p/B4",
+      "C5": "violin/p/C4",
+      "D4": "violin/p/D3",
+      "D6": "violin/p/D5",
+      "E5": "violin/p/E4",
+      "F#4": "violin/p/Fs3",
+      "G3": "violin/p/G2",
+      "G5": "violin/p/G4"
+     }
+    },
+    {
+     "velRange": [
+      0.5,
+      1.0
+     ],
+     "map": {
+      "A3": "violin/f/A2",
+      "A4": "violin/f/A3",
+      "B3": "violin/f/B2",
+      "B5": "violin/f/B4",
+      "C5": "violin/f/C4",
+      "D4": "violin/f/D3",
+      "D6": "violin/f/D5",
+      "E5": "violin/f/E4",
+      "F#4": "violin/f/Fs3",
+      "G3": "violin/f/G2",
+      "G5": "violin/f/G4"
+     }
+    }
+   ],
+   "livelloDb": -31.0
+  },
+  "violin-solo": {
+   "release": 1.0,
+   "ext": ".ogg",
+   "layers": [
+    {
+     "velRange": [
+      0.0,
+      0.5
+     ],
+     "map": {
+      "A3": "violin-solo/p/A3",
+      "A4": "violin-solo/p/A4",
+      "A5": "violin-solo/p/A5",
+      "A6": "violin-solo/p/A6",
+      "B3": "violin-solo/p/B3",
+      "B4": "violin-solo/p/B4",
+      "B5": "violin-solo/p/B5",
+      "B6": "violin-solo/p/B6",
+      "C#4": "violin-solo/p/Cs4",
+      "C#5": "violin-solo/p/Cs5",
+      "C#6": "violin-solo/p/Cs6",
+      "D#4": "violin-solo/p/Ds4",
+      "D#5": "violin-solo/p/Ds5",
+      "D#6": "violin-solo/p/Ds6",
+      "F4": "violin-solo/p/F4",
+      "F5": "violin-solo/p/F5",
+      "F6": "violin-solo/p/F6",
+      "G3": "violin-solo/p/G3",
+      "G4": "violin-solo/p/G4",
+      "G5": "violin-solo/p/G5",
+      "G6": "violin-solo/p/G6"
+     }
+    },
+    {
+     "velRange": [
+      0.5,
+      1.0
+     ],
+     "map": {
+      "A3": "violin-solo/f/A3",
+      "A4": "violin-solo/f/A4",
+      "A5": "violin-solo/f/A5",
+      "A6": "violin-solo/f/A6",
+      "B3": "violin-solo/f/B3",
+      "B4": "violin-solo/f/B4",
+      "B5": "violin-solo/f/B5",
+      "B6": "violin-solo/f/B6",
+      "C#4": "violin-solo/f/Cs4",
+      "C#5": "violin-solo/f/Cs5",
+      "C#6": "violin-solo/f/Cs6",
+      "D#4": "violin-solo/f/Ds4",
+      "D#5": "violin-solo/f/Ds5",
+      "D#6": "violin-solo/f/Ds6",
+      "F4": "violin-solo/f/F4",
+      "F5": "violin-solo/f/F5",
+      "F6": "violin-solo/f/F6",
+      "G3": "violin-solo/f/G3",
+      "G4": "violin-solo/f/G4",
+      "G5": "violin-solo/f/G5",
+      "G6": "violin-solo/f/G6"
+     }
+    }
+   ],
+   "livelloDb": -20.0
+  },
+  "woodblock": {
+   "release": 1.0,
+   "ext": ".ogg",
+   "layers": [
+    {
+     "velRange": [
+      0.0,
+      0.5
+     ],
+     "map": {
+      "C4": [
+       "woodblock/p/C4_1",
+       "woodblock/p/C4_2",
+       "woodblock/p/C4_3"
+      ]
+     }
+    },
+    {
+     "velRange": [
+      0.5,
+      1.0
+     ],
+     "map": {
+      "C4": "woodblock/f/C4"
+     }
+    }
+   ],
+   "livelloDb": -53.5
+  },
+  "xylophone": {
+   "release": 1.0,
+   "ext": ".ogg",
+   "layers": [
+    {
+     "velRange": [
+      0.0,
+      1.0
+     ],
+     "map": {
+      "C5": "xylophone/mf/C4",
+      "C6": "xylophone/mf/C5",
+      "C7": "xylophone/mf/C6",
+      "C8": "xylophone/mf/C7",
+      "G4": "xylophone/mf/G3",
+      "G5": "xylophone/mf/G4",
+      "G6": "xylophone/mf/G5",
+      "G7": "xylophone/mf/G6"
+     }
+    }
+   ],
+   "livelloDb": -23.8
+  },
+  "soprano-solo": {
+   "ext": ".mp3",
+   "release": 0.6,
+   "layers": [
+    {
+     "map": {
+      "C4": "soprano-solo-hd/C4",
+      "Eb4": "soprano-solo-hd/Eb4",
+      "Gb4": "soprano-solo-hd/Gb4",
+      "A4": "soprano-solo-hd/A4",
+      "C5": "soprano-solo-hd/C5",
+      "Eb5": "soprano-solo-hd/Eb5",
+      "Gb5": "soprano-solo-hd/Gb5",
+      "A5": "soprano-solo-hd/A5",
+      "C6": "soprano-solo-hd/C6"
+     }
+    }
+   ],
+   "livelloDb": -9.2
+  },
+  "alto-solo": {
+   "ext": ".mp3",
+   "release": 0.6,
+   "layers": [
+    {
+     "map": {
+      "Gb3": "alto-solo-hd/Gb3",
+      "A3": "alto-solo-hd/A3",
+      "C4": "alto-solo-hd/C4",
+      "Eb4": "alto-solo-hd/Eb4",
+      "Gb4": "alto-solo-hd/Gb4",
+      "A4": "alto-solo-hd/A4",
+      "C5": "alto-solo-hd/C5",
+      "Eb5": "alto-solo-hd/Eb5",
+      "Gb5": "alto-solo-hd/Gb5"
+     }
+    }
+   ],
+   "livelloDb": -8.6
+  },
+  "tenor-solo": {
+   "ext": ".mp3",
+   "release": 0.6,
+   "layers": [
+    {
+     "map": {
+      "C3": "tenor-solo-hd/C3",
+      "Eb3": "tenor-solo-hd/Eb3",
+      "Gb3": "tenor-solo-hd/Gb3",
+      "A3": "tenor-solo-hd/A3",
+      "C4": "tenor-solo-hd/C4",
+      "Eb4": "tenor-solo-hd/Eb4",
+      "Gb4": "tenor-solo-hd/Gb4",
+      "A4": "tenor-solo-hd/A4",
+      "C5": "tenor-solo-hd/C5"
+     }
+    }
+   ],
+   "livelloDb": -10.4
+  },
+  "baritone-solo": {
+   "ext": ".mp3",
+   "release": 0.6,
+   "layers": [
+    {
+     "map": {
+      "A2": "baritone-solo-hd/A2",
+      "C3": "baritone-solo-hd/C3",
+      "Eb3": "baritone-solo-hd/Eb3",
+      "Gb3": "baritone-solo-hd/Gb3",
+      "A3": "baritone-solo-hd/A3",
+      "C4": "baritone-solo-hd/C4",
+      "Eb4": "baritone-solo-hd/Eb4",
+      "Gb4": "baritone-solo-hd/Gb4",
+      "A4": "baritone-solo-hd/A4"
+     }
+    }
+   ],
+   "livelloDb": -11.0
+  },
+  "bass-solo": {
+   "ext": ".mp3",
+   "release": 0.6,
+   "layers": [
+    {
+     "map": {
+      "Eb2": "bass-solo-hd/Eb2",
+      "Gb2": "bass-solo-hd/Gb2",
+      "A2": "bass-solo-hd/A2",
+      "C3": "bass-solo-hd/C3",
+      "Eb3": "bass-solo-hd/Eb3",
+      "Gb3": "bass-solo-hd/Gb3",
+      "A3": "bass-solo-hd/A3",
+      "C4": "bass-solo-hd/C4",
+      "Eb4": "bass-solo-hd/Eb4"
+     }
+    }
+   ],
+   "livelloDb": -11.4
   }
+ },
+ "livelloRif": -20.0
 }
