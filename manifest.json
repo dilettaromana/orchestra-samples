@@ -1480,8 +1480,7 @@
       "Gb4": "alto-solo-hd/Gb4",
       "A4": "alto-solo-hd/A4",
       "C5": "alto-solo-hd/C5",
-      "Eb5": "alto-solo-hd/Eb5",
-      "Gb5": "alto-solo-hd/Gb5"
+      "Eb5": "alto-solo-hd/Eb5"
      }
     }
    ],
@@ -1546,6 +1545,78 @@
     }
    ],
    "livelloDb": -11.4
+  },
+  "choir-female": {
+   "release": 1.0,
+   "ext": ".ogg",
+   "layers": [
+    {
+     "velRange": [
+      0.0,
+      1.0
+     ],
+     "map": {
+      "A4": "choir-female/mf/A4",
+      "A5": "choir-female/mf/A5",
+      "A#4": "choir-female/mf/As4",
+      "A#5": "choir-female/mf/As5",
+      "B4": "choir-female/mf/B4",
+      "B5": "choir-female/mf/B5",
+      "C5": "choir-female/mf/C5",
+      "C6": "choir-female/mf/C6",
+      "C#5": "choir-female/mf/Cs5",
+      "D5": "choir-female/mf/D5",
+      "D#5": "choir-female/mf/Ds5",
+      "E5": "choir-female/mf/E5",
+      "F5": "choir-female/mf/F5",
+      "F#5": "choir-female/mf/Fs5",
+      "G4": "choir-female/mf/G4",
+      "G5": "choir-female/mf/G5",
+      "G#4": "choir-female/mf/Gs4",
+      "G#5": "choir-female/mf/Gs5"
+     }
+    }
+   ],
+   "livelloDb": -20.0
+  },
+  "choir-male": {
+   "release": 1.0,
+   "ext": ".ogg",
+   "layers": [
+    {
+     "velRange": [
+      0.0,
+      1.0
+     ],
+     "map": {
+      "A2": "choir-male/mf/A2",
+      "A3": "choir-male/mf/A3",
+      "A#2": "choir-male/mf/As2",
+      "A#3": "choir-male/mf/As3",
+      "B2": "choir-male/mf/B2",
+      "B3": "choir-male/mf/B3",
+      "C3": "choir-male/mf/C3",
+      "C4": "choir-male/mf/C4",
+      "C#3": "choir-male/mf/Cs3",
+      "C#4": "choir-male/mf/Cs4",
+      "D3": "choir-male/mf/D3",
+      "D4": "choir-male/mf/D4",
+      "D#3": "choir-male/mf/Ds3",
+      "D#4": "choir-male/mf/Ds4",
+      "E3": "choir-male/mf/E3",
+      "E4": "choir-male/mf/E4",
+      "F3": "choir-male/mf/F3",
+      "F4": "choir-male/mf/F4",
+      "F#3": "choir-male/mf/Fs3",
+      "F#4": "choir-male/mf/Fs4",
+      "G2": "choir-male/mf/G2",
+      "G3": "choir-male/mf/G3",
+      "G#2": "choir-male/mf/Gs2",
+      "G#3": "choir-male/mf/Gs3"
+     }
+    }
+   ],
+   "livelloDb": -20.0
   }
  },
  "livelloRif": -20.0
