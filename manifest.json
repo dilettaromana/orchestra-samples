@@ -1,11 +1,11 @@
 {
  "name": "orchestra-samples",
- "version": "0.2.0",
+ "version": "0.5.1",
  "baseUrl": "./samples/",
  "ext": ".ogg",
  "instruments": {
   "accordion": {
-   "release": 0.4,
+   "release": 0.2,
    "ext": ".mp3",
    "layers": [
     {
@@ -33,7 +33,7 @@
    "livelloDb": -30.1
   },
   "bass-drum": {
-   "release": 1.0,
+   "release": 0.6,
    "ext": ".ogg",
    "layers": [
     {
@@ -64,7 +64,7 @@
    "livelloDb": -27.1
   },
   "bass-electric": {
-   "release": 1.0,
+   "release": 0.4,
    "ext": ".ogg",
    "layers": [
     {
@@ -96,7 +96,7 @@
    "livelloDb": -13.2
   },
   "bassoon": {
-   "release": 1.0,
+   "release": 0.2,
    "ext": ".ogg",
    "layers": [
     {
@@ -171,7 +171,7 @@
    "livelloDb": -20.0
   },
   "cello": {
-   "release": 1.0,
+   "release": 0.35,
    "ext": ".ogg",
    "layers": [
     {
@@ -220,7 +220,7 @@
    "livelloDb": -24.1
   },
   "choir-aah": {
-   "release": 1.0,
+   "release": 0.45,
    "ext": ".mp3",
    "layers": [
     {
@@ -248,7 +248,7 @@
    "livelloDb": -30.3
   },
   "clarinet": {
-   "release": 1.0,
+   "release": 0.18,
    "ext": ".ogg",
    "layers": [
     {
@@ -325,7 +325,7 @@
    "livelloDb": -20.0
   },
   "contrabass": {
-   "release": 1.0,
+   "release": 0.4,
    "ext": ".ogg",
    "layers": [
     {
@@ -384,7 +384,7 @@
    "livelloDb": -20.0
   },
   "cymbals": {
-   "release": 1.0,
+   "release": 1.2,
    "ext": ".ogg",
    "layers": [
     {
@@ -415,7 +415,7 @@
    "livelloDb": -28.1
   },
   "flute": {
-   "release": 1.0,
+   "release": 0.18,
    "ext": ".ogg",
    "layers": [
     {
@@ -476,7 +476,7 @@
    "livelloDb": -20.0
   },
   "french-horn": {
-   "release": 1.0,
+   "release": 0.26,
    "ext": ".ogg",
    "layers": [
     {
@@ -540,7 +540,7 @@
    "livelloDb": -20.0
   },
   "glockenspiel": {
-   "release": 1.0,
+   "release": 1.5,
    "ext": ".ogg",
    "layers": [
     {
@@ -561,7 +561,7 @@
    "livelloDb": -43.4
   },
   "gong": {
-   "release": 1.0,
+   "release": 1.5,
    "ext": ".ogg",
    "layers": [
     {
@@ -586,7 +586,7 @@
    "livelloDb": -25.4
   },
   "guitar-acoustic": {
-   "release": 1.0,
+   "release": 0.8,
    "ext": ".ogg",
    "layers": [
     {
@@ -638,7 +638,7 @@
    "livelloDb": -13.7
   },
   "guitar-electric": {
-   "release": 1.0,
+   "release": 0.8,
    "ext": ".ogg",
    "layers": [
     {
@@ -670,7 +670,7 @@
    "livelloDb": -17.5
   },
   "harp": {
-   "release": 1.0,
+   "release": 1.2,
    "ext": ".ogg",
    "layers": [
     {
@@ -708,7 +708,7 @@
    "livelloDb": -39.1
   },
   "hi-hat": {
-   "release": 1.0,
+   "release": 0.5,
    "ext": ".ogg",
    "layers": [
     {
@@ -739,7 +739,7 @@
    "livelloDb": -44.0
   },
   "marimba": {
-   "release": 1.0,
+   "release": 0.6,
    "ext": ".ogg",
    "layers": [
     {
@@ -764,7 +764,7 @@
    "livelloDb": -36.7
   },
   "oboe": {
-   "release": 1.0,
+   "release": 0.18,
    "ext": ".ogg",
    "layers": [
     {
@@ -825,7 +825,7 @@
    "livelloDb": -20.0
   },
   "organ": {
-   "release": 1.0,
+   "release": 0.12,
    "ext": ".ogg",
    "layers": [
     {
@@ -861,7 +861,7 @@
    "livelloDb": -33.2
   },
   "piano": {
-   "release": 1.0,
+   "release": 0.8,
    "ext": ".mp3",
    "layers": [
     {
@@ -902,7 +902,7 @@
    "livelloDb": -24.0
   },
   "saxophone": {
-   "release": 1.0,
+   "release": 0.2,
    "ext": ".ogg",
    "layers": [
     {
@@ -980,7 +980,7 @@
    "livelloDb": -20.0
   },
   "snare": {
-   "release": 1.0,
+   "release": 0.5,
    "ext": ".ogg",
    "layers": [
     {
@@ -1011,7 +1011,7 @@
    "livelloDb": -35.0
   },
   "tambourine": {
-   "release": 1.0,
+   "release": 0.6,
    "ext": ".ogg",
    "layers": [
     {
@@ -1039,7 +1039,7 @@
    "livelloDb": -47.9
   },
   "timpani": {
-   "release": 1.0,
+   "release": 1.2,
    "ext": ".ogg",
    "layers": [
     {
@@ -1090,7 +1090,7 @@
    "livelloDb": -20.0
   },
   "tom": {
-   "release": 1.0,
+   "release": 0.6,
    "ext": ".ogg",
    "layers": [
     {
@@ -1121,7 +1121,7 @@
    "livelloDb": -53.3
   },
   "triangle": {
-   "release": 1.0,
+   "release": 1.5,
    "ext": ".ogg",
    "layers": [
     {
@@ -1154,7 +1154,7 @@
    "livelloDb": -56.5
   },
   "trombone": {
-   "release": 1.0,
+   "release": 0.22,
    "ext": ".ogg",
    "layers": [
     {
@@ -1220,7 +1220,7 @@
    "livelloDb": -20.0
   },
   "trumpet": {
-   "release": 1.0,
+   "release": 0.22,
    "ext": ".ogg",
    "layers": [
     {
@@ -1275,7 +1275,7 @@
    "livelloDb": -20.0
   },
   "tubular-bells": {
-   "release": 1.0,
+   "release": 1.5,
    "ext": ".ogg",
    "layers": [
     {
@@ -1304,7 +1304,7 @@
    "livelloDb": -41.2
   },
   "viola": {
-   "release": 1.0,
+   "release": 0.35,
    "ext": ".ogg",
    "layers": [
     {
@@ -1353,7 +1353,7 @@
    "livelloDb": -26.5
   },
   "violin": {
-   "release": 1.0,
+   "release": 0.35,
    "ext": ".ogg",
    "layers": [
     {
@@ -1398,7 +1398,7 @@
    "livelloDb": -31.0
   },
   "violin-solo": {
-   "release": 1.0,
+   "release": 0.35,
    "ext": ".ogg",
    "layers": [
     {
@@ -1463,7 +1463,7 @@
    "livelloDb": -20.0
   },
   "woodblock": {
-   "release": 1.0,
+   "release": 0.4,
    "ext": ".ogg",
    "layers": [
     {
@@ -1492,7 +1492,7 @@
    "livelloDb": -53.5
   },
   "xylophone": {
-   "release": 1.0,
+   "release": 0.6,
    "ext": ".ogg",
    "layers": [
     {
@@ -1516,7 +1516,7 @@
   },
   "soprano-solo": {
    "ext": ".mp3",
-   "release": 0.6,
+   "release": 0.4,
    "layers": [
     {
      "map": {
@@ -1536,7 +1536,7 @@
   },
   "alto-solo": {
    "ext": ".mp3",
-   "release": 0.6,
+   "release": 0.4,
    "layers": [
     {
      "map": {
@@ -1555,7 +1555,7 @@
   },
   "tenor-solo": {
    "ext": ".mp3",
-   "release": 0.6,
+   "release": 0.4,
    "layers": [
     {
      "map": {
@@ -1575,7 +1575,7 @@
   },
   "baritone-solo": {
    "ext": ".mp3",
-   "release": 0.6,
+   "release": 0.4,
    "layers": [
     {
      "map": {
@@ -1595,7 +1595,7 @@
   },
   "bass-solo": {
    "ext": ".mp3",
-   "release": 0.6,
+   "release": 0.4,
    "layers": [
     {
      "map": {
@@ -1614,7 +1614,7 @@
    "livelloDb": -11.4
   },
   "choir-female": {
-   "release": 1.0,
+   "release": 0.4,
    "ext": ".ogg",
    "layers": [
     {
@@ -1647,7 +1647,7 @@
    "livelloDb": -20.0
   },
   "choir-male": {
-   "release": 1.0,
+   "release": 0.4,
    "ext": ".ogg",
    "layers": [
     {
